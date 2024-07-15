@@ -1,0 +1,5 @@
+
+#
+# Git LFS (see https://git-lfs.github.com/)
+#
+*.png filter=lfs diff=lfs merge=lfs -text
