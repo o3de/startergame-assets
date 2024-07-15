@@ -1,0 +1,2634 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Empty Airship Pod",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3837204912784440039
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8018146290632383969
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7874177159288365422
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5787060997243919943
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 7804170251266531779
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3261249813163778338
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12917798267488243668
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10182366347512475253
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4848458548047175816
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4272963378099646759,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1872521320213109]": {
+            "Id": "Entity_[1872521320213109]",
+            "Name": "airship_pod_outerwalls2",
+            "Components": {
+                "Component_[10768631167026893108]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10768631167026893108
+                },
+                "Component_[15298880605612198292]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15298880605612198292
+                },
+                "Component_[15333057718126854628]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15333057718126854628,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17553318439517368300
+                        },
+                        {
+                            "ComponentId": 16958695856192342960,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12925095531797192980,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17553318439517368300]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17553318439517368300,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.5699462890625,
+                            5.10137939453125,
+                            2.6170806884765625
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            282.9999694824219
+                        ],
+                        "Scale": [
+                            0.9999998807907104,
+                            0.9999998807907104,
+                            1.0
+                        ]
+                    }
+                },
+                "Component_[17646179337127802372]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17646179337127802372
+                },
+                "Component_[3069903194635177047]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3069903194635177047
+                },
+                "Component_[3630067758146138872]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3630067758146138872
+                },
+                "Component_[4311533667165165057]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4311533667165165057
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{BCD2BB63-338F-53BE-98E1-BF847138B78E}",
+                                    "subId": 272792601
+                                },
+                                "assetHint": "objects/airship/airship_pod_outerwalls.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1172497795
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F15FDAE2-3701-56D8-B526-6BA69F5F0472}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_outerwalls_lifterrailmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1181368559
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C83CCA6D-556F-5EBA-AC77-9C9318E7FF06}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_outerwalls_wall3mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1203693585
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9EC2D014-1100-51FE-95EC-81DA7DFC380B}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_outerwalls_wall2mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1608656082
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{266C70B5-8433-50E2-A01F-31C7D488D7D0}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_outerwalls_wallmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2275618513
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5C856555-8F97-57ED-908C-FC1BF16A3359}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_outerwalls_doorgatemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8353717716000772797]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8353717716000772797
+                }
+            }
+        },
+        "Entity_[1872525615180405]": {
+            "Id": "Entity_[1872525615180405]",
+            "Name": "am_air_hanging_wires_18",
+            "Components": {
+                "Component_[11681351500092629784]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 11681351500092629784,
+                    "NonUniformScale": [
+                        0.6126449704170227,
+                        1.0000001192092896,
+                        0.5785182118415833
+                    ]
+                },
+                "Component_[11875430312689322586]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11875430312689322586
+                },
+                "Component_[16280940536671733132]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16280940536671733132,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 535546027821818619
+                        },
+                        {
+                            "ComponentId": 15912769596786608013,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[16876199578596466816]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16876199578596466816
+                },
+                "Component_[3112196811509564646]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3112196811509564646
+                },
+                "Component_[3450469145644651375]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3450469145644651375
+                },
+                "Component_[4147396398990388829]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4147396398990388829
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8882914B-3D90-5812-B4D3-BD2E76CB5ADE}",
+                                    "subId": 282239811
+                                },
+                                "assetHint": "objects/airship/am_air_hanging_wires_02.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[535546027821818619]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 535546027821818619,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            2.29248046875,
+                            -0.53717041015625,
+                            8.299968719482422
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            12.99997329711914
+                        ]
+                    }
+                },
+                "Component_[6168909707942709030]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6168909707942709030
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3749393150
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C587BF31-F9E8-5B01-B107-2070F0B6A6C5}"
+                                            },
+                                            "assetHint": "objects/airship/am_air_hanging_wires_02_am_air_hanging_wires1.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7584366116244214683]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7584366116244214683
+                }
+            }
+        },
+        "Entity_[1872529910147701]": {
+            "Id": "Entity_[1872529910147701]",
+            "Name": "am_air_pipe_straight_17",
+            "Components": {
+                "Component_[11342901402697094818]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11342901402697094818,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            2.1624755859375,
+                            1.15118408203125,
+                            6.7711639404296875
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            193.0000762939453
+                        ],
+                        "Scale": [
+                            0.9999998807907104,
+                            0.9999998807907104,
+                            1.0
+                        ]
+                    }
+                },
+                "Component_[15432147908963143391]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15432147908963143391
+                },
+                "Component_[17220916660251232426]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17220916660251232426
+                },
+                "Component_[17798429192425123734]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17798429192425123734
+                },
+                "Component_[255342732855325478]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 255342732855325478,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11342901402697094818
+                        },
+                        {
+                            "ComponentId": 12980731818806110364,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 2617785679922479,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{93741304-E980-5E80-84EA-9C0AFDE546F4}",
+                                    "subId": 279893168
+                                },
+                                "assetHint": "objects/airship/am_air_pipes_straight_02.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3601993228
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{78C3DA42-8A05-5548-9DFF-D594D06F0E7B}"
+                                            },
+                                            "assetHint": "objects/airship/am_air_pipes_straight_02_am_air_pipe_straight_01_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6681223797650119897]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6681223797650119897
+                },
+                "Component_[8096641474293607557]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8096641474293607557
+                },
+                "Component_[8449240393982244071]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8449240393982244071
+                },
+                "Component_[9921247539849712385]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9921247539849712385
+                }
+            }
+        },
+        "Entity_[1872534205114997]": {
+            "Id": "Entity_[1872534205114997]",
+            "Name": "am_air_pipe_straight_17",
+            "Components": {
+                "Component_[11342901402697094818]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11342901402697094818,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            4.5330810546875,
+                            -9.11700439453125,
+                            6.7711639404296875
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            193.0000762939453
+                        ],
+                        "Scale": [
+                            0.9999998807907104,
+                            0.9999998807907104,
+                            1.0
+                        ]
+                    }
+                },
+                "Component_[11787491141821092739]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11787491141821092739
+                },
+                "Component_[16914077822687939271]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16914077822687939271
+                },
+                "Component_[17220916660251232426]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17220916660251232426
+                },
+                "Component_[17798429192425123734]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17798429192425123734
+                },
+                "Component_[255342732855325478]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 255342732855325478,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11342901402697094818
+                        },
+                        {
+                            "ComponentId": 12980731818806110364,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8273429627359666110,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{1C8568DF-6F9E-5073-B694-B11BB9B470B1}",
+                                    "subId": 281292959
+                                },
+                                "assetHint": "objects/airship/am_air_pipe_straight_03.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5143074568896432854]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5143074568896432854
+                },
+                "Component_[6103604669882241294]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6103604669882241294
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3601993228
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C7D5C842-4893-597C-880E-8822FC747ED3}"
+                                            },
+                                            "assetHint": "objects/airship/am_air_pipe_straight_03_am_air_pipe_straight_01_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9921247539849712385]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9921247539849712385
+                }
+            }
+        },
+        "Entity_[1872538500082293]": {
+            "Id": "Entity_[1872538500082293]",
+            "Name": "am_air_pipe_straight_18",
+            "Components": {
+                "Component_[1399635695109069819]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1399635695109069819,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6559085740242418680
+                        },
+                        {
+                            "ComponentId": 16858963988273082463,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16617381226008549691,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14694327675815384994]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14694327675815384994
+                },
+                "Component_[16023800952924129124]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16023800952924129124
+                },
+                "Component_[17733582831307630766]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17733582831307630766
+                },
+                "Component_[3237184324369578860]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3237184324369578860
+                },
+                "Component_[3590217409078609608]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3590217409078609608
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F9A51146-899F-5249-925E-8F1565ECEE35}",
+                                    "subId": 281694643
+                                },
+                                "assetHint": "objects/airship/am_air_pipe_straight_01.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[4954937247883330810]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4954937247883330810
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3601993228
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D85AC562-0E21-5BD0-9968-103808BE570D}"
+                                            },
+                                            "assetHint": "objects/airship/am_air_pipe_straight_01_am_air_pipe_straight_01_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6559085740242418680]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6559085740242418680,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            -2.3421630859375,
+                            0.11114499717950821,
+                            6.838897705078125
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            193.0000762939453
+                        ],
+                        "Scale": [
+                            0.9999998807907104,
+                            0.9999998807907104,
+                            1.0
+                        ]
+                    }
+                },
+                "Component_[8023300391589823061]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8023300391589823061
+                }
+            }
+        },
+        "Entity_[1872542795049589]": {
+            "Id": "Entity_[1872542795049589]",
+            "Name": "am_air_pipes_straight_17",
+            "Components": {
+                "Component_[16530287415988560351]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16530287415988560351
+                },
+                "Component_[17718471935620746651]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17718471935620746651,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            2.5384521484375,
+                            -10.34930419921875,
+                            7.6667022705078125
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            193.0000762939453
+                        ],
+                        "Scale": [
+                            0.9999998807907104,
+                            0.9999998807907104,
+                            1.0
+                        ]
+                    }
+                },
+                "Component_[2867299139427808959]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2867299139427808959
+                },
+                "Component_[4523550826147208939]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4523550826147208939
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{93741304-E980-5E80-84EA-9C0AFDE546F4}",
+                                    "subId": 279893168
+                                },
+                                "assetHint": "objects/airship/am_air_pipes_straight_02.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5885159945774771117]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5885159945774771117
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3601993228
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{78C3DA42-8A05-5548-9DFF-D594D06F0E7B}"
+                                            },
+                                            "assetHint": "objects/airship/am_air_pipes_straight_02_am_air_pipe_straight_01_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6879344925005067954]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6879344925005067954
+                },
+                "Component_[7450393967398289441]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7450393967398289441
+                },
+                "Component_[899355486118217861]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 899355486118217861
+                },
+                "Component_[9880096060992226728]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9880096060992226728,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17718471935620746651
+                        },
+                        {
+                            "ComponentId": 359956063336100539,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10463127223157435120,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "Entity_[1872547090016885]": {
+            "Id": "Entity_[1872547090016885]",
+            "Name": "am_air_hanging_wires_17",
+            "Components": {
+                "Component_[11681351500092629784]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 11681351500092629784,
+                    "NonUniformScale": [
+                        0.6126449704170227,
+                        1.0000001192092896,
+                        0.5785182118415833
+                    ]
+                },
+                "Component_[12341502943570479837]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12341502943570479837,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            -2.0533447265625,
+                            0.52081298828125,
+                            8.299968719482422
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            12.99997329711914
+                        ]
+                    }
+                },
+                "Component_[13458845440438602308]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13458845440438602308
+                },
+                "Component_[15785379668737937577]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15785379668737937577
+                },
+                "Component_[2104196086352013686]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2104196086352013686
+                },
+                "Component_[299266051591173759]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 299266051591173759
+                },
+                "Component_[318839452147284785]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 318839452147284785,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12341502943570479837
+                        },
+                        {
+                            "ComponentId": 16293947267453605942,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[3919854586616792929]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3919854586616792929
+                },
+                "Component_[4247074429377189399]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4247074429377189399
+                },
+                "Component_[4295558843908723184]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4295558843908723184
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8882914B-3D90-5812-B4D3-BD2E76CB5ADE}",
+                                    "subId": 282239811
+                                },
+                                "assetHint": "objects/airship/am_air_hanging_wires_02.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3749393150
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C587BF31-F9E8-5B01-B107-2070F0B6A6C5}"
+                                            },
+                                            "assetHint": "objects/airship/am_air_hanging_wires_02_am_air_hanging_wires1.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[1872551384984181]": {
+            "Id": "Entity_[1872551384984181]",
+            "Name": "airship_pod_robotseats2",
+            "Components": {
+                "Component_[11129752000750017820]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11129752000750017820
+                },
+                "Component_[11283675000417180035]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11283675000417180035
+                },
+                "Component_[11367602099805954868]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11367602099805954868
+                },
+                "Component_[1204416081774815088]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1204416081774815088
+                },
+                "Component_[12112947144156930340]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12112947144156930340
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{43B7D901-6E3B-57AC-A02D-37A5F952A7AB}",
+                                    "subId": 270532812
+                                },
+                                "assetHint": "objects/airship/airship_pod_robotseats.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[4580776479495907034]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4580776479495907034,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.8188477158546448,
+                            -3.11260986328125,
+                            2.797088623046875
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            102.9999771118164
+                        ],
+                        "Scale": [
+                            0.9999998211860657,
+                            0.9999998211860657,
+                            1.0
+                        ]
+                    }
+                },
+                "Component_[5882598887025404427]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5882598887025404427,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4580776479495907034
+                        },
+                        {
+                            "ComponentId": 438079290108148373,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17246366261023276205,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[6428469711858405665]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6428469711858405665
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1919930195
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0269BB53-EE38-53D7-9F36-02079A90E253}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_robotseats_airship_robotseatfrontmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3395268507
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{ED94CB22-7412-5528-A124-1DAC6E7BCD6A}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_robotseats_pistonstructuremat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3871182822
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1E41FF6A-83AA-5F0E-BA8D-017D450E3506}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_robotseats_airship_robotseatrearmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8235948570691374934]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8235948570691374934
+                }
+            }
+        },
+        "Entity_[1872555679951477]": {
+            "Id": "Entity_[1872555679951477]",
+            "Name": "airship_pod_floorrobotseats1",
+            "Components": {
+                "Component_[10436194853092376714]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10436194853092376714
+                },
+                "Component_[10570381154526403864]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10570381154526403864
+                },
+                "Component_[12667158985598391811]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12667158985598391811
+                },
+                "Component_[13779413133436290078]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13779413133436290078
+                },
+                "Component_[16307155333035335060]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16307155333035335060
+                },
+                "Component_[2583440415903047475]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2583440415903047475
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C495BA9F-877A-5D7E-9D1D-912F21392B98}",
+                                    "subId": 271363969
+                                },
+                                "assetHint": "objects/airship/airship_pod_floorrobotseats.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3491706471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A6477F11-6252-5DF2-9134-2D567108D779}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_floorrobotseats_floorglassmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9351859750258462948]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9351859750258462948,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9585123906057305451
+                        },
+                        {
+                            "ComponentId": 10463309977405577982,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5017276573351259651,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[9446454042493313390]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9446454042493313390
+                },
+                "Component_[9585123906057305451]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9585123906057305451,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.57666015625,
+                            4.97845458984375,
+                            2.6170806884765625
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            282.9999694824219
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[1872559974918773]": {
+            "Id": "Entity_[1872559974918773]",
+            "Name": "airship_pod_door_r1",
+            "Components": {
+                "Component_[10640076190788052042]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10640076190788052042
+                },
+                "Component_[11175456705750932633]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11175456705750932633
+                },
+                "Component_[11701206734174496999]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11701206734174496999
+                },
+                "Component_[17227198920012322952]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17227198920012322952
+                },
+                "Component_[17777666661610409366]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17777666661610409366
+                },
+                "Component_[3288491500239063269]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3288491500239063269
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F74AB542-0313-58B4-90A5-7107763A91F9}",
+                                    "subId": 275314429
+                                },
+                                "assetHint": "objects/airship/airship_pod_door_r.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5845642287016426503]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5845642287016426503,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            -4.9534912109375,
+                            11.6290283203125,
+                            2.559783935546875
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            282.9999694824219
+                        ]
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 724621248
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{49DAFA3F-C9FC-59F2-A7F9-723158107D37}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_door_r_doorsmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6829542835156367410]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6829542835156367410,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5845642287016426503
+                        },
+                        {
+                            "ComponentId": 6380421830166527323,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10152443736814129575,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7017785123395901989]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7017785123395901989
+                }
+            }
+        },
+        "Entity_[1872564269886069]": {
+            "Id": "Entity_[1872564269886069]",
+            "Name": "airship_pod_door_r1",
+            "Components": {
+                "Component_[10100785942529471759]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10100785942529471759
+                },
+                "Component_[10640076190788052042]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10640076190788052042
+                },
+                "Component_[11175456705750932633]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11175456705750932633
+                },
+                "Component_[11271335145381677136]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11271335145381677136
+                },
+                "Component_[3740383697190497387]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3740383697190497387
+                },
+                "Component_[3864155342907091696]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3864155342907091696
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F74AB542-0313-58B4-90A5-7107763A91F9}",
+                                    "subId": 275314429
+                                },
+                                "assetHint": "objects/airship/airship_pod_door_r.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5845642287016426503]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5845642287016426503,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            2.5281982421875,
+                            -10.07525634765625,
+                            2.559783935546875
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            282.9999694824219
+                        ],
+                        "Scale": [
+                            0.9999998807907104,
+                            0.9999998807907104,
+                            1.0
+                        ]
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 724621248
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{49DAFA3F-C9FC-59F2-A7F9-723158107D37}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_door_r_doorsmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6829542835156367410]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6829542835156367410,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5845642287016426503
+                        },
+                        {
+                            "ComponentId": 6380421830166527323,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10975655422640948472,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7017785123395901989]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7017785123395901989
+                }
+            }
+        },
+        "Entity_[1872568564853365]": {
+            "Id": "Entity_[1872568564853365]",
+            "Name": "airship_pod_lamp1",
+            "Components": {
+                "Component_[11203470730022105253]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11203470730022105253
+                },
+                "Component_[11681351500092629784]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 11681351500092629784,
+                    "NonUniformScale": [
+                        1.0,
+                        0.620400071144104,
+                        1.0
+                    ]
+                },
+                "Component_[11826411288904104070]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11826411288904104070
+                },
+                "Component_[15944688445179743641]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15944688445179743641
+                },
+                "Component_[16318164724178356256]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16318164724178356256
+                },
+                "Component_[16403169199177218809]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16403169199177218809,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.8714600205421448,
+                            4.156982421875,
+                            8.087081909179688
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            282.9999694824219
+                        ]
+                    }
+                },
+                "Component_[3519764691384260392]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3519764691384260392,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16403169199177218809
+                        },
+                        {
+                            "ComponentId": 2897169339369610726,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12791078280727329020,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4251123964915267854]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4251123964915267854
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3DB0D71A-5112-5778-BEBA-5EC52FC7D250}",
+                                    "subId": 281013929
+                                },
+                                "assetHint": "objects/airship/airship_pod_lamp.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1935256846
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{88364498-6A1B-5523-80D3-5C9413DFF530}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_lamp_lampmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[861330360578458165]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 861330360578458165
+                },
+                "Component_[950091341592459652]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 950091341592459652
+                }
+            }
+        },
+        "Entity_[1872572859820661]": {
+            "Id": "Entity_[1872572859820661]",
+            "Name": "am_air_hanging_wires_13",
+            "Components": {
+                "Component_[10196012508459244098]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10196012508459244098
+                },
+                "Component_[11681351500092629784]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 11681351500092629784,
+                    "NonUniformScale": [
+                        1.6933245658874512,
+                        1.0,
+                        0.4317300021648407
+                    ]
+                },
+                "Component_[11983882482316096289]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11983882482316096289
+                },
+                "Component_[13358637070000569172]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13358637070000569172
+                },
+                "Component_[14527963290434877284]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14527963290434877284
+                },
+                "Component_[15862939595302865310]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15862939595302865310,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.27880859375,
+                            -0.65594482421875,
+                            8.597148895263672
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            12.999974250793457
+                        ]
+                    }
+                },
+                "Component_[17395447788983695140]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17395447788983695140
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8882914B-3D90-5812-B4D3-BD2E76CB5ADE}",
+                                    "subId": 282239811
+                                },
+                                "assetHint": "objects/airship/am_air_hanging_wires_02.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5680435616664707048]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5680435616664707048
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3749393150
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C587BF31-F9E8-5B01-B107-2070F0B6A6C5}"
+                                            },
+                                            "assetHint": "objects/airship/am_air_hanging_wires_02_am_air_hanging_wires1.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7459282500316507523]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7459282500316507523,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15862939595302865310
+                        },
+                        {
+                            "ComponentId": 11062467711130085206,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[8446649344192518413]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8446649344192518413
+                }
+            }
+        },
+        "Entity_[1872577154787957]": {
+            "Id": "Entity_[1872577154787957]",
+            "Name": "airship_pod_robotseats3",
+            "Components": {
+                "Component_[10111095205779421649]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10111095205779421649
+                },
+                "Component_[11895341984248935558]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11895341984248935558
+                },
+                "Component_[12658538915169376162]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12658538915169376162,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.1651611328125,
+                            5.41680908203125,
+                            2.797088623046875
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            282.9999694824219
+                        ]
+                    }
+                },
+                "Component_[16340311122073509311]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16340311122073509311
+                },
+                "Component_[3011015258841717155]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3011015258841717155
+                },
+                "Component_[3545019714113162324]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3545019714113162324
+                },
+                "Component_[3806013748152932154]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3806013748152932154
+                },
+                "Component_[439916867311056309]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 439916867311056309
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{43B7D901-6E3B-57AC-A02D-37A5F952A7AB}",
+                                    "subId": 270532812
+                                },
+                                "assetHint": "objects/airship/airship_pod_robotseats.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1919930195
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0269BB53-EE38-53D7-9F36-02079A90E253}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_robotseats_airship_robotseatfrontmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3395268507
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{ED94CB22-7412-5528-A124-1DAC6E7BCD6A}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_robotseats_pistonstructuremat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3871182822
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1E41FF6A-83AA-5F0E-BA8D-017D450E3506}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_robotseats_airship_robotseatrearmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7707107719821760392]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7707107719821760392,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12658538915169376162
+                        },
+                        {
+                            "ComponentId": 3343514846771500547,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16386419610602168416,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "Entity_[1872581449755253]": {
+            "Id": "Entity_[1872581449755253]",
+            "Name": "airship_pod_lamp2",
+            "Components": {
+                "Component_[11681351500092629784]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 11681351500092629784,
+                    "NonUniformScale": [
+                        1.0,
+                        0.620400071144104,
+                        1.0
+                    ]
+                },
+                "Component_[12690038564812741936]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12690038564812741936
+                },
+                "Component_[13044322037049615261]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13044322037049615261
+                },
+                "Component_[13749385584484861427]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13749385584484861427
+                },
+                "Component_[1422766326105501017]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1422766326105501017
+                },
+                "Component_[14473174928293771432]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14473174928293771432
+                },
+                "Component_[1731573367673947065]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1731573367673947065
+                },
+                "Component_[1833360454297147563]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1833360454297147563,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5230942190900701584
+                        },
+                        {
+                            "ComponentId": 7934521837706728489,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17044661632118654985,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4158400359296124281]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4158400359296124281
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3DB0D71A-5112-5778-BEBA-5EC52FC7D250}",
+                                    "subId": 281013929
+                                },
+                                "assetHint": "objects/airship/airship_pod_lamp.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5230942190900701584]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5230942190900701584,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.545654296875,
+                            -1.959228515625,
+                            8.087081909179688
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            282.9999694824219
+                        ]
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1935256846
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{88364498-6A1B-5523-80D3-5C9413DFF530}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_lamp_lampmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[1872585744722549]": {
+            "Id": "Entity_[1872585744722549]",
+            "Name": "airship_pod_floorwires2",
+            "Components": {
+                "Component_[11139869846760891646]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11139869846760891646
+                },
+                "Component_[13821660806179124711]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13821660806179124711
+                },
+                "Component_[15274868723299973647]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15274868723299973647
+                },
+                "Component_[17677723343887155421]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17677723343887155421,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.73974609375,
+                            -2.33404541015625,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            247.99998474121094
+                        ]
+                    }
+                },
+                "Component_[18175048162151023666]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 18175048162151023666,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17677723343887155421
+                        },
+                        {
+                            "ComponentId": 16192487229416614359,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[3347936657859010915]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3347936657859010915
+                },
+                "Component_[3889910123024574880]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3889910123024574880
+                },
+                "Component_[4037989487842993353]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4037989487842993353
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{7A7C75C7-83EC-50D2-B1CC-AD2E993C65F4}",
+                                    "subId": 275126840
+                                },
+                                "assetHint": "objects/airship/airship_pod_floorwires05.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1238836334
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{AEAC2A08-94D6-5229-99DD-A2E14AAE3667}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_floorwires05_floorwiresmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6944724386517423508]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6944724386517423508
+                }
+            }
+        },
+        "Entity_[1872590039689845]": {
+            "Id": "Entity_[1872590039689845]",
+            "Name": "airship_pod_innerwalls2",
+            "Components": {
+                "Component_[11062845178734982512]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11062845178734982512
+                },
+                "Component_[12144608103046025148]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12144608103046025148
+                },
+                "Component_[12809557217133403014]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12809557217133403014
+                },
+                "Component_[1294030632987017634]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1294030632987017634,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.4990234375,
+                            5.13336181640625,
+                            2.6170806884765625
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            282.9999694824219
+                        ],
+                        "Scale": [
+                            0.9999998807907104,
+                            0.9999998807907104,
+                            1.0
+                        ]
+                    }
+                },
+                "Component_[15115841461067122261]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15115841461067122261
+                },
+                "Component_[17905943495183590358]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17905943495183590358,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1294030632987017634
+                        },
+                        {
+                            "ComponentId": 11773813723113684209,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15960670774586315437,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[3804011236231068186]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3804011236231068186
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{D112CAA6-09C2-5290-A352-5C9F5E8FCF7C}",
+                                    "subId": 280165649
+                                },
+                                "assetHint": "objects/airship/airship_pod_innerwalls.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1385391270
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3324EEAC-8884-543B-9636-5E985847B612}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_innerwalls_wallinnermat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[67720238478686719]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 67720238478686719
+                },
+                "Component_[7435454584232362005]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7435454584232362005
+                }
+            }
+        },
+        "Entity_[1872594334657141]": {
+            "Id": "Entity_[1872594334657141]",
+            "Name": "airship_pod_door_r1",
+            "Components": {
+                "Component_[10640076190788052042]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10640076190788052042
+                },
+                "Component_[10723500998858942985]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10723500998858942985
+                },
+                "Component_[10744711093711103780]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10744711093711103780
+                },
+                "Component_[11175456705750932633]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11175456705750932633
+                },
+                "Component_[13603820795201315441]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13603820795201315441
+                },
+                "Component_[17286094540216805834]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17286094540216805834
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{DD49BA0C-718D-5B26-BFE1-E6CCFB1836BA}",
+                                    "subId": 275237790
+                                },
+                                "assetHint": "objects/airship/airship_pod_door_l.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5845642287016426503]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5845642287016426503,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.2860107421875,
+                            12.58917236328125,
+                            2.559783935546875
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            282.9999694824219
+                        ]
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 724621248
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4805F3A1-F96B-578A-B92D-C83F00DB97DD}"
+                                            },
+                                            "assetHint": "objects/airship/airship_pod_door_l_doorsmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6829542835156367410]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6829542835156367410,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5845642287016426503
+                        },
+                        {
+                            "ComponentId": 6380421830166527323,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8361839695457474738,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7017785123395901989]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7017785123395901989
+                }
+            }
+        },
+        "Entity_[1872598629624437]": {
+            "Id": "Entity_[1872598629624437]",
+            "Name": "am_air_hanging_wires_14",
+            "Components": {
+                "Component_[11148927143590708205]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11148927143590708205
+                },
+                "Component_[11681351500092629784]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 11681351500092629784,
+                    "NonUniformScale": [
+                        1.6933245658874512,
+                        1.0,
+                        0.4317300021648407
+                    ]
+                },
+                "Component_[12400478443583520631]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12400478443583520631
+                },
+                "Component_[17466874011589584927]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17466874011589584927,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.9449462890625,
+                            -3.54119873046875,
+                            8.597148895263672
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            12.999974250793457
+                        ]
+                    }
+                },
+                "Component_[381005220695520304]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 381005220695520304
+                },
+                "Component_[4509296557710622606]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4509296557710622606
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{86F7D5D0-9A27-5D69-833D-83F6CCC5C2B6}",
+                                    "subId": 282850041
+                                },
+                                "assetHint": "objects/airship/am_air_hanging_wires_01.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5023179512774482009]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5023179512774482009
+                },
+                "Component_[5116333400437009841]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5116333400437009841,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17466874011589584927
+                        },
+                        {
+                            "ComponentId": 8541014512217761457,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[5310963946459461990]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5310963946459461990
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3749393150
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3A8FC45A-B778-5915-8245-31939F7EDB18}"
+                                            },
+                                            "assetHint": "objects/airship/am_air_hanging_wires_01_am_air_hanging_wires1.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9977235897594788215]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9977235897594788215
+                }
+            }
+        },
+        "Entity_[1872602924591733]": {
+            "Id": "Entity_[1872602924591733]",
+            "Name": "am_air_pipes_straight_17",
+            "Components": {
+                "Component_[13835558118945018640]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13835558118945018640
+                },
+                "Component_[14227675999915087472]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14227675999915087472
+                },
+                "Component_[17718471935620746651]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17718471935620746651,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.09313959628343582,
+                            1.048828125,
+                            7.6667022705078125
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            193.0000762939453
+                        ],
+                        "Scale": [
+                            0.9999998807907104,
+                            0.9999998807907104,
+                            1.0
+                        ]
+                    }
+                },
+                "Component_[2867299139427808959]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2867299139427808959
+                },
+                "Component_[3451482140802714599]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3451482140802714599
+                },
+                "Component_[3580161014480603568]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3580161014480603568
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{93741304-E980-5E80-84EA-9C0AFDE546F4}",
+                                    "subId": 279893168
+                                },
+                                "assetHint": "objects/airship/am_air_pipes_straight_02.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5885159945774771117]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5885159945774771117
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3601993228
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{78C3DA42-8A05-5548-9DFF-D594D06F0E7B}"
+                                            },
+                                            "assetHint": "objects/airship/am_air_pipes_straight_02_am_air_pipe_straight_01_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6879344925005067954]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6879344925005067954
+                },
+                "Component_[9880096060992226728]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9880096060992226728,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17718471935620746651
+                        },
+                        {
+                            "ComponentId": 359956063336100539,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 9780029216206363928,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "Entity_[1872607219559029]": {
+            "Id": "Entity_[1872607219559029]",
+            "Name": "am_air_pipe_straight_18",
+            "Components": {
+                "Component_[1399635695109069819]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1399635695109069819,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6559085740242418680
+                        },
+                        {
+                            "ComponentId": 16858963988273082463,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6165926981449970864,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14694327675815384994]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14694327675815384994
+                },
+                "Component_[17733582831307630766]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17733582831307630766
+                },
+                "Component_[1846891184494133493]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1846891184494133493
+                },
+                "Component_[2533840796334241061]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2533840796334241061
+                },
+                "Component_[3178156419553263814]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3178156419553263814
+                },
+                "Component_[385309906367169220]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 385309906367169220
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F9A51146-899F-5249-925E-8F1565ECEE35}",
+                                    "subId": 281694643
+                                },
+                                "assetHint": "objects/airship/am_air_pipe_straight_01.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[4954937247883330810]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4954937247883330810
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3601993228
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D85AC562-0E21-5BD0-9968-103808BE570D}"
+                                            },
+                                            "assetHint": "objects/airship/am_air_pipe_straight_01_am_air_pipe_straight_01_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6559085740242418680]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6559085740242418680,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.028442399576306343,
+                            -10.1571044921875,
+                            6.838897705078125
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            193.0000762939453
+                        ],
+                        "Scale": [
+                            0.9999998807907104,
+                            0.9999998807907104,
+                            1.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[1872615809493621]": {
+            "Id": "Entity_[1872615809493621]",
+            "Name": "Empty Airship Pod",
+            "Components": {
+                "Component_[12075845217063206311]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12075845217063206311,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14011752567659301328
+                        }
+                    ]
+                },
+                "Component_[14011752567659301328]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14011752567659301328,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[14633694537233164987]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14633694537233164987
+                },
+                "Component_[15169799787115307623]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15169799787115307623
+                },
+                "Component_[16722496479252411975]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16722496479252411975
+                },
+                "Component_[1764868612001379214]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1764868612001379214
+                },
+                "Component_[2336556469145866828]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2336556469145866828,
+                    "Child Entity Order": [
+                        "Entity_[255642624402832]",
+                        "Entity_[1872547090016885]",
+                        "Entity_[1872577154787957]",
+                        "Entity_[1872555679951477]",
+                        "Entity_[1872534205114997]",
+                        "Entity_[1872529910147701]",
+                        "Entity_[1872581449755253]",
+                        "Entity_[1872598629624437]",
+                        "Entity_[1872521320213109]",
+                        "Entity_[1872551384984181]",
+                        "Entity_[1872568564853365]",
+                        "Entity_[1872538500082293]",
+                        "Entity_[1872602924591733]",
+                        "Entity_[1872525615180405]",
+                        "Entity_[1872564269886069]",
+                        "Entity_[1872590039689845]",
+                        "Entity_[1872594334657141]",
+                        "Entity_[1872585744722549]",
+                        "Entity_[1872572859820661]",
+                        "Entity_[1872542795049589]",
+                        "Entity_[1872559974918773]",
+                        "Entity_[1872607219559029]"
+                    ]
+                },
+                "Component_[4111269709493718593]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4111269709493718593
+                },
+                "Component_[9244913512085873154]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9244913512085873154
+                }
+            }
+        },
+        "Entity_[255642624402832]": {
+            "Id": "Entity_[255642624402832]",
+            "Name": "vegetation_filter",
+            "Components": {
+                "Component_[11430617186451387457]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11430617186451387457
+                },
+                "Component_[11758827059520842560]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11758827059520842560
+                },
+                "Component_[12714465399928174547]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12714465399928174547
+                },
+                "Component_[14615270892786618036]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14615270892786618036
+                },
+                "Component_[15428027020651687649]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15428027020651687649
+                },
+                "Component_[3298107929278147919]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3298107929278147919,
+                    "Parent Entity": "Entity_[1872615809493621]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            12.0
+                        ]
+                    }
+                },
+                "Component_[4496382887763085481]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4496382887763085481
+                },
+                "Component_[7113639174229681892]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7113639174229681892,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 3298107929278147919
+                        },
+                        {
+                            "ComponentId": 17512475269705860859,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7119865976767424216,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7119865976767424216]": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 7119865976767424216,
+                    "BoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                21.490407943725586,
+                                52.94389343261719,
+                                19.865161895751953
+                            ]
+                        }
+                    }
+                },
+                "Component_[798594851754083078]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 798594851754083078
+                }
+            }
+        }
+    }
+}

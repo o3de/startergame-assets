@@ -1,0 +1,119 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Gameplay",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3837204912784440039
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8018146290632383969
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7874177159288365422
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5787060997243919943
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 7804170251266531779
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3261249813163778338
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12917798267488243668
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10182366347512475253
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4848458548047175816
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4272963378099646759,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3962424805241774]": {
+            "Id": "Entity_[3962424805241774]",
+            "Name": "Gameplay",
+            "Components": {
+                "Component_[11149868263633900640]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11149868263633900640,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Scale": [
+                            0.9999998211860657,
+                            0.9999998211860657,
+                            1.0
+                        ]
+                    }
+                },
+                "Component_[12777963588785418470]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12777963588785418470
+                },
+                "Component_[12843353945545282142]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12843353945545282142
+                },
+                "Component_[13458235615746847333]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13458235615746847333
+                },
+                "Component_[137602761374538564]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 137602761374538564
+                },
+                "Component_[15364161213676185949]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15364161213676185949,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11149868263633900640
+                        },
+                        {
+                            "ComponentId": 3429453726743122803,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4307809910831443519,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17374373611638342565]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17374373611638342565
+                },
+                "Component_[3343809722087335422]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3343809722087335422
+                },
+                "Component_[4307809910831443519]": {
+                    "$type": "EditorCommentComponent",
+                    "Id": 4307809910831443519,
+                    "Configuration": "This entity monitors the player's health and the Gameplay MissionStatusChanged script event to know if the game should end"
+                },
+                "Component_[5936323605136324824]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5936323605136324824
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.41788509,
+                0.49693301,
+                0.49693301
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "Airship_RobotSeatStructure_01_BaseColor.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "Airship_RobotSeatStructure_01_Metallic.tif"
+        },
+        "specularF0": {
+            "factor": 0.21952623
+        }
+    }
+}

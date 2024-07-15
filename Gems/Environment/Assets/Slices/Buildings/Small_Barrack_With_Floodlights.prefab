@@ -1,0 +1,853 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Small_Barrack_With_Floodlights",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3837204912784440039
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8018146290632383969
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7874177159288365422
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5787060997243919943
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 7804170251266531779
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3261249813163778338
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12917798267488243668
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10182366347512475253
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4848458548047175816
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4272963378099646759,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[40338583479040]": {
+            "Id": "Entity_[40338583479040]",
+            "Name": "Small Barrack With Floodlights",
+            "Components": {
+                "Component_[12074114948206967255]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12074114948206967255,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5732369691929287785
+                        }
+                    ]
+                },
+                "Component_[15026591820783645500]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15026591820783645500,
+                    "Child Entity Order": [
+                        "Entity_[40342878446336]",
+                        "Entity_[40347173413632]",
+                        "Entity_[40351468380928]",
+                        "Entity_[40355763348224]",
+                        "Entity_[40360058315520]",
+                        "Entity_[40364353282816]"
+                    ]
+                },
+                "Component_[15227399633036597591]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15227399633036597591
+                },
+                "Component_[5190999348236426579]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5190999348236426579
+                },
+                "Component_[5505972953554683558]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5505972953554683558
+                },
+                "Component_[5732369691929287785]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5732369691929287785,
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[6406359091248918846]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6406359091248918846
+                },
+                "Component_[6858977450924725739]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6858977450924725739
+                },
+                "Component_[9586396856772866928]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9586396856772866928
+                }
+            }
+        },
+        "Entity_[40342878446336]": {
+            "Id": "Entity_[40342878446336]",
+            "Name": "Door",
+            "Components": {
+                "Component_[10884451922155062722]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10884451922155062722
+                },
+                "Component_[12425723716444168187]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12425723716444168187
+                },
+                "Component_[13353747633665525812]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13353747633665525812,
+                    "Parent Entity": "Entity_[40338583479040]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.03967289999127388,
+                            -0.10717769712209702,
+                            0.7144889831542969
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            32.0
+                        ]
+                    },
+                    "IsStatic": true
+                },
+                "Component_[16557945006193809784]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16557945006193809784,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13353747633665525812
+                        },
+                        {
+                            "ComponentId": 8303397862022362958,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 2200932535399620890,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[18119083226081907045]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 18119083226081907045
+                },
+                "Component_[2014618560017299493]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2014618560017299493
+                },
+                "Component_[2966982369327229939]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2966982369327229939
+                },
+                "Component_[3862056974033652225]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3862056974033652225
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{4D479E47-90E3-531F-91E7-E06501111FE0}",
+                                    "subId": 280325921
+                                },
+                                "assetHint": "objects/buildings/am_buildings_door_01.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1018383683
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2F7EFDE5-3540-5F94-8398-88C39989476A}"
+                                            },
+                                            "assetHint": "objects/buildings/am_buildings_door_01_am_buildings_door_01_m.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7074168113003624254]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7074168113003624254
+                }
+            }
+        },
+        "Entity_[40347173413632]": {
+            "Id": "Entity_[40347173413632]",
+            "Name": "Floodlight 0",
+            "Components": {
+                "Component_[11004186377678111961]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11004186377678111961
+                },
+                "Component_[11560139237810971745]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11560139237810971745,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5308534876497095851
+                        },
+                        {
+                            "ComponentId": 11511836327320976488,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1802786551072572026,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[15546968207440856857]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15546968207440856857
+                },
+                "Component_[2155191406710209924]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2155191406710209924
+                },
+                "Component_[2512212172206634963]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2512212172206634963
+                },
+                "Component_[273401263585453597]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 273401263585453597
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E685F4A0-539B-581A-B39D-3E162C5C5385}",
+                                    "subId": 273417804
+                                },
+                                "assetHint": "objects/buildings/floodlight.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[487179752662465088]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 487179752662465088
+                },
+                "Component_[5126933554368877491]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5126933554368877491
+                },
+                "Component_[5308534876497095851]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5308534876497095851,
+                    "Parent Entity": "Entity_[40338583479040]",
+                    "Transform Data": {
+                        "Translate": [
+                            -5.972412109375,
+                            -4.224609375,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            301.9999694824219
+                        ],
+                        "Scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "UniformScale": 0.5
+                    },
+                    "IsStatic": true
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2971398822
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{29CEA96B-8871-5E3B-B023-DAA9E31489C6}"
+                                            },
+                                            "assetHint": "objects/buildings/floodlight_floodlightmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[40351468380928]": {
+            "Id": "Entity_[40351468380928]",
+            "Name": "Room",
+            "Components": {
+                "Component_[11479286328266502948]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11479286328266502948
+                },
+                "Component_[11593085397486798927]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11593085397486798927
+                },
+                "Component_[13759947833998230837]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13759947833998230837
+                },
+                "Component_[14428551995617085885]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14428551995617085885,
+                    "Parent Entity": "Entity_[40338583479040]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.8922119140625,
+                            2.973388671875,
+                            0.4431458115577698
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            122.0
+                        ],
+                        "Scale": [
+                            0.30000001192092896,
+                            0.30000001192092896,
+                            0.30000001192092896
+                        ],
+                        "UniformScale": 0.30000001192092896
+                    },
+                    "IsStatic": true
+                },
+                "Component_[15750845738126416104]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15750845738126416104
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{A2686663-F6D8-5BFA-B1E7-397B22CC3502}",
+                                    "subId": 282346917
+                                },
+                                "assetHint": "objects/buildings/building_square_large_group.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5135363768187588089]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5135363768187588089
+                },
+                "Component_[6252093809198546037]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6252093809198546037
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 791046151
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4F5C0469-6FC2-52DB-A358-9A46E413FD4D}"
+                                            },
+                                            "assetHint": "objects/buildings/building_square_large_group_buildings_panels_02_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1762779747
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C629F6A8-B6C9-55A0-A00C-A09F771B0207}"
+                                            },
+                                            "assetHint": "objects/buildings/building_square_large_group_buildings_panels_01_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7450119997002645626]": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 7450119997002645626,
+                    "Visible": false,
+                    "BoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                30.0,
+                                46.0,
+                                40.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[8140023551537798540]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8140023551537798540
+                },
+                "Component_[9666220090725162977]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9666220090725162977,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14428551995617085885
+                        },
+                        {
+                            "ComponentId": 17170991918726387806,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4391917715082917324,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 16279395325769963978,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 7450119997002645626,
+                            "SortIndex": 4
+                        }
+                    ]
+                }
+            }
+        },
+        "Entity_[40355763348224]": {
+            "Id": "Entity_[40355763348224]",
+            "Name": "Pillar 0",
+            "Components": {
+                "Component_[11681351500092629784]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 11681351500092629784,
+                    "NonUniformScale": [
+                        0.4585157036781311,
+                        0.4585157036781311,
+                        0.5593891143798828
+                    ]
+                },
+                "Component_[12787583701026429454]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12787583701026429454
+                },
+                "Component_[14515462335704647041]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14515462335704647041
+                },
+                "Component_[14604818503205076870]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14604818503205076870,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 18086657520098101826
+                        },
+                        {
+                            "ComponentId": 9755246503359852168,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8361692625479394382,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[15777926871968238539]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15777926871968238539
+                },
+                "Component_[18086657520098101826]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 18086657520098101826,
+                    "Parent Entity": "Entity_[40338583479040]",
+                    "Transform Data": {
+                        "Translate": [
+                            -2.363037109375,
+                            -3.0604248046875,
+                            0.5881615281105042
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            302.0000305175781
+                        ]
+                    },
+                    "IsStatic": true
+                },
+                "Component_[3021191888610218478]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3021191888610218478
+                },
+                "Component_[3968292734208847256]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3968292734208847256
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{98BDC137-4FFC-5B6A-8BD5-258083F30801}",
+                                    "subId": 277211124
+                                },
+                                "assetHint": "objects/buildings/am_building_pillar_01_group.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[4957222635903058677]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4957222635903058677
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 791046151
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BC0AEF4A-0918-582D-B3E7-CB5E4F4F95CB}"
+                                            },
+                                            "assetHint": "objects/buildings/am_building_pillar_01_group_buildings_panels_02_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 942508265
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{03033914-9B13-533A-83C9-3ED5275A373B}"
+                                            },
+                                            "assetHint": "objects/buildings/am_building_pillar_01_group_buildings_panels_01_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8359335739145994111]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8359335739145994111
+                }
+            }
+        },
+        "Entity_[40360058315520]": {
+            "Id": "Entity_[40360058315520]",
+            "Name": "Pillar 1",
+            "Components": {
+                "Component_[11585041973738742851]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11585041973738742851
+                },
+                "Component_[11681351500092629784]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 11681351500092629784,
+                    "NonUniformScale": [
+                        0.4585157036781311,
+                        0.4585157036781311,
+                        0.5593891143798828
+                    ]
+                },
+                "Component_[13729782220240830774]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13729782220240830774
+                },
+                "Component_[15336367004178962936]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15336367004178962936
+                },
+                "Component_[15944521945970803691]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15944521945970803691,
+                    "Parent Entity": "Entity_[40338583479040]",
+                    "Transform Data": {
+                        "Translate": [
+                            3.8914794921875,
+                            0.8476563096046448,
+                            0.5872191786766052
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            302.0000305175781
+                        ]
+                    },
+                    "IsStatic": true
+                },
+                "Component_[17104017367936650602]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17104017367936650602,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15944521945970803691
+                        },
+                        {
+                            "ComponentId": 4919702335624248110,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10246461729671079265,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17152466662769481846]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17152466662769481846
+                },
+                "Component_[17708566434523586079]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17708566434523586079
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{98BDC137-4FFC-5B6A-8BD5-258083F30801}",
+                                    "subId": 277211124
+                                },
+                                "assetHint": "objects/buildings/am_building_pillar_01_group.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5799912561657223654]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5799912561657223654
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 791046151
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BC0AEF4A-0918-582D-B3E7-CB5E4F4F95CB}"
+                                            },
+                                            "assetHint": "objects/buildings/am_building_pillar_01_group_buildings_panels_02_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 942508265
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{03033914-9B13-533A-83C9-3ED5275A373B}"
+                                            },
+                                            "assetHint": "objects/buildings/am_building_pillar_01_group_buildings_panels_01_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8396216734874960514]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8396216734874960514
+                }
+            }
+        },
+        "Entity_[40364353282816]": {
+            "Id": "Entity_[40364353282816]",
+            "Name": "Floodlight 1",
+            "Components": {
+                "Component_[10358995935309373266]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10358995935309373266
+                },
+                "Component_[11206998419785652853]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11206998419785652853,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2610063167717413153
+                        },
+                        {
+                            "ComponentId": 12828501644752858274,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6366404396686992186,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17076905613883320183]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17076905613883320183
+                },
+                "Component_[18318675675628542480]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 18318675675628542480
+                },
+                "Component_[2610063167717413153]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2610063167717413153,
+                    "Parent Entity": "Entity_[40338583479040]",
+                    "Transform Data": {
+                        "Translate": [
+                            6.2960205078125,
+                            3.5714111328125,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            301.9999694824219
+                        ],
+                        "Scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "UniformScale": 0.5
+                    },
+                    "IsStatic": true
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E685F4A0-539B-581A-B39D-3E162C5C5385}",
+                                    "subId": 273417804
+                                },
+                                "assetHint": "objects/buildings/floodlight.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5317856126347071123]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5317856126347071123
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2971398822
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{29CEA96B-8871-5E3B-B023-DAA9E31489C6}"
+                                            },
+                                            "assetHint": "objects/buildings/floodlight_floodlightmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8446245768675964166]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8446245768675964166
+                },
+                "Component_[8570588497740567861]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8570588497740567861
+                },
+                "Component_[9314568840884244594]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9314568840884244594
+                }
+            }
+        }
+    }
+}

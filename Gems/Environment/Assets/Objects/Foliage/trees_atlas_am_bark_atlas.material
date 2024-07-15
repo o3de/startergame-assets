@@ -1,0 +1,11 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "bark_BaseColor.tif",
+        "general.doubleSided": true,
+        "metallic.factor": 1.0,
+        "metallic.textureMap": "bark_Metallic.tif",
+        "specularF0.factor": 0.021219011396169662
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.39675525,
+                0.39675525,
+                0.39675525
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "grass_tuft_01_BaseColorA.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "grass_tuft_01_Metallic.tif"
+        },
+        "specularF0": {
+            "factor": 0.0056053922
+        },
+        "opacity": {
+            "mode": "Cutout",
+            "factor": 0.909999996
+        }
+    }
+}

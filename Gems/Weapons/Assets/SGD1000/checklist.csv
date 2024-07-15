@@ -1,0 +1,2 @@
+fbxname,materialname,dirname,dirpath,mayafile,basecolor,metallic,roughness,normal,emissive,scattering,opacity,status,synced
+SGD1000.fbx,SGDMat,SGD1000,F:\lmbr-fork\dev\Gems\StarterGame\Weapons\Assets\SGD1000,,D:\Downloads\test2\Assets\Objects\SGD1000\sgd1000_BaseColor.tif,D:\Downloads\test2\Assets\Objects\SGD1000\sgd1000_Metallic.tif,D:\Downloads\test2\Assets\Objects\SGD1000\sgd1000_Roughness.tif,D:\Downloads\test2\Assets\Objects\SGD1000\sgd1000_Normal.tif,D:\Downloads\test2\Assets\Objects\SGD1000\sgd1000_Emissive.tif,,,Started,No

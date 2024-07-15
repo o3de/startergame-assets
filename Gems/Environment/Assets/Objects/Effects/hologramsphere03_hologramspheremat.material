@@ -1,0 +1,33 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.30054381,
+                0.61049569
+            ],
+            "enable": true,
+            "intensity": 5.3785697620348,
+            "textureMap": "FX_HologramSphere_01_Emissive.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "FX_HologramSphere_01_Metallic.tif"
+        },
+        "specularF0": {
+            "factor": 0.0
+        }
+    }
+}

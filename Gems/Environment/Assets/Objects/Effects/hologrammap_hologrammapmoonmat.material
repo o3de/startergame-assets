@@ -1,0 +1,36 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "hologrammapmoon_01_BaseColor.exportsettings"
+        },
+        "emissive": {
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "enable": true,
+            "intensity": 6.869880158145604,
+            "textureMap": "hologrammapmoon_01_Emissive.exportsettings"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "D:\\Downloads\\New folder\\Assets\\Objects\\Effects\\hologrammapmoon_01_Metallic.exportsettings"
+        },
+        "specularF0": {
+            "factor": 0.0
+        }
+    }
+}

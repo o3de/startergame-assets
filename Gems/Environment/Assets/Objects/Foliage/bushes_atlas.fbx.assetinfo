@@ -1,0 +1,903 @@
+<ObjectStream version="3">
+	<Class name="SceneManifest" version="1" type="{9274AD17-3212-4651-9F3B-7DCCB080E467}">
+		<Class name="AZStd::vector" field="values" type="{5D6A7C67-11CA-59A4-829B-0B20B781B292}">
+			<Class name="AZStd::shared_ptr" field="element" type="{EB7522F9-0E87-55A9-A191-E924DC5AE867}">
+				<Class name="MeshGroup" field="element" version="3" type="{07B356B7-3635-40B5-878A-FAC4EFD5AD86}">
+					<Class name="IMeshGroup" field="BaseClass1" version="2" type="{74D45E45-81EE-4AD4-83B5-F37EB98D847C}">
+						<Class name="ISceneNodeGroup" field="BaseClass1" version="1" type="{1D20FA11-B184-429E-8C86-745852234845}">
+							<Class name="IGroup" field="BaseClass1" version="1" type="{DE008E67-790D-4672-A73A-5CA0F31EDD2D}">
+								<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+							</Class>
+						</Class>
+					</Class>
+					<Class name="AZStd::string" field="name" value="bushes_atlas_bush1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="SceneNodeSelectionList" field="nodeSelectionList" version="1" type="{D0CE66CE-1BAD-42F5-86ED-3923573B3A02}">
+						<Class name="ISceneNodeSelectionList" field="BaseClass1" version="1" type="{DC3F9996-E550-4780-A03B-80B0DDA1DA45}"/>
+						<Class name="AZStd::vector" field="selectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						</Class>
+						<Class name="AZStd::vector" field="unselectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+							<Class name="AZStd::string" field="element" value="RootNode" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.transform" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						</Class>
+					</Class>
+					<Class name="RuleContainer" field="rules" version="1" type="{2C20D3DF-57FF-4A31-8680-A4D45302B9CF}">
+						<Class name="AZStd::vector" field="rules" type="{B5BDB053-178F-5D55-8663-70897A71B7C9}">
+							<Class name="AZStd::shared_ptr" field="element" type="{0BB4AFBA-F087-55C7-95DF-01D71F6CB052}">
+								<Class name="StaticMeshAdvancedRule" field="element" version="6" type="{AE82749D-A68A-4FE7-A8BA-0F4CE67607AC}">
+									<Class name="IMeshAdvancedRule" field="BaseClass1" version="1" type="{ADF04C44-5786-466A-AE69-63E5E3474D21}">
+										<Class name="IRule" field="BaseClass1" version="1" type="{81267F8B-3963-423B-9FF7-D276D82CD110}">
+											<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+										</Class>
+									</Class>
+									<Class name="bool" field="use32bitVertices" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="bool" field="mergeMeshes" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="bool" field="useCustomNormals" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="AZStd::string" field="vertexColorStreamName" value="colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								</Class>
+							</Class>
+							<Class name="AZStd::shared_ptr" field="element" type="{0BB4AFBA-F087-55C7-95DF-01D71F6CB052}">
+								<Class name="MaterialRule" field="element" version="2" type="{35620013-A27C-4F6D-87BF-72F11688ACAD}">
+									<Class name="IMaterialRule" field="BaseClass1" version="1" type="{428C9752-6EDF-4FA2-9BDF-DBDFCEB4CC0F}">
+										<Class name="IRule" field="BaseClass1" version="1" type="{81267F8B-3963-423B-9FF7-D276D82CD110}">
+											<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+										</Class>
+									</Class>
+									<Class name="bool" field="updateMaterials" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="bool" field="removeMaterials" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+								</Class>
+							</Class>
+							<Class name="AZStd::shared_ptr" field="element" type="{0BB4AFBA-F087-55C7-95DF-01D71F6CB052}">
+								<Class name="LodRule" field="element" version="1" type="{6E796AC8-1484-4909-860A-6D3F22A7346F}">
+									<Class name="ILodRule" field="BaseClass1" version="1" type="{D91C2CA1-B3F9-4819-8B58-AE2AEB98859A}">
+										<Class name="IRule" field="BaseClass1" version="1" type="{81267F8B-3963-423B-9FF7-D276D82CD110}">
+											<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+										</Class>
+									</Class>
+									<Class name="AZStd::fixed_vector" field="nodeSelectionList" type="{CBED74A5-6CDD-5B8C-8641-0C5B07E2E858}">
+										<Class name="SceneNodeSelectionList" field="element" version="1" type="{D0CE66CE-1BAD-42F5-86ED-3923573B3A02}">
+											<Class name="ISceneNodeSelectionList" field="BaseClass1" version="1" type="{DC3F9996-E550-4780-A03B-80B0DDA1DA45}"/>
+											<Class name="AZStd::vector" field="selectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+											<Class name="AZStd::vector" field="unselectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.transform" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+										</Class>
+										<Class name="SceneNodeSelectionList" field="element" version="1" type="{D0CE66CE-1BAD-42F5-86ED-3923573B3A02}">
+											<Class name="ISceneNodeSelectionList" field="BaseClass1" version="1" type="{DC3F9996-E550-4780-A03B-80B0DDA1DA45}"/>
+											<Class name="AZStd::vector" field="selectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+											<Class name="AZStd::vector" field="unselectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.transform" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+										</Class>
+									</Class>
+								</Class>
+							</Class>
+						</Class>
+					</Class>
+					<Class name="AZ::Uuid" field="id" value="{61C52858-3B64-5E5D-BDC9-266DC8F5EF81}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::shared_ptr" field="element" type="{EB7522F9-0E87-55A9-A191-E924DC5AE867}">
+				<Class name="MeshGroup" field="element" version="3" type="{07B356B7-3635-40B5-878A-FAC4EFD5AD86}">
+					<Class name="IMeshGroup" field="BaseClass1" version="2" type="{74D45E45-81EE-4AD4-83B5-F37EB98D847C}">
+						<Class name="ISceneNodeGroup" field="BaseClass1" version="1" type="{1D20FA11-B184-429E-8C86-745852234845}">
+							<Class name="IGroup" field="BaseClass1" version="1" type="{DE008E67-790D-4672-A73A-5CA0F31EDD2D}">
+								<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+							</Class>
+						</Class>
+					</Class>
+					<Class name="AZStd::string" field="name" value="bushes_atlas_bush2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="SceneNodeSelectionList" field="nodeSelectionList" version="1" type="{D0CE66CE-1BAD-42F5-86ED-3923573B3A02}">
+						<Class name="ISceneNodeSelectionList" field="BaseClass1" version="1" type="{DC3F9996-E550-4780-A03B-80B0DDA1DA45}"/>
+						<Class name="AZStd::vector" field="selectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						</Class>
+						<Class name="AZStd::vector" field="unselectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+							<Class name="AZStd::string" field="element" value="RootNode" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						</Class>
+					</Class>
+					<Class name="RuleContainer" field="rules" version="1" type="{2C20D3DF-57FF-4A31-8680-A4D45302B9CF}">
+						<Class name="AZStd::vector" field="rules" type="{B5BDB053-178F-5D55-8663-70897A71B7C9}">
+							<Class name="AZStd::shared_ptr" field="element" type="{0BB4AFBA-F087-55C7-95DF-01D71F6CB052}">
+								<Class name="StaticMeshAdvancedRule" field="element" version="6" type="{AE82749D-A68A-4FE7-A8BA-0F4CE67607AC}">
+									<Class name="IMeshAdvancedRule" field="BaseClass1" version="1" type="{ADF04C44-5786-466A-AE69-63E5E3474D21}">
+										<Class name="IRule" field="BaseClass1" version="1" type="{81267F8B-3963-423B-9FF7-D276D82CD110}">
+											<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+										</Class>
+									</Class>
+									<Class name="bool" field="use32bitVertices" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="bool" field="mergeMeshes" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="bool" field="useCustomNormals" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="AZStd::string" field="vertexColorStreamName" value="colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								</Class>
+							</Class>
+							<Class name="AZStd::shared_ptr" field="element" type="{0BB4AFBA-F087-55C7-95DF-01D71F6CB052}">
+								<Class name="MaterialRule" field="element" version="2" type="{35620013-A27C-4F6D-87BF-72F11688ACAD}">
+									<Class name="IMaterialRule" field="BaseClass1" version="1" type="{428C9752-6EDF-4FA2-9BDF-DBDFCEB4CC0F}">
+										<Class name="IRule" field="BaseClass1" version="1" type="{81267F8B-3963-423B-9FF7-D276D82CD110}">
+											<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+										</Class>
+									</Class>
+									<Class name="bool" field="updateMaterials" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="bool" field="removeMaterials" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+								</Class>
+							</Class>
+							<Class name="AZStd::shared_ptr" field="element" type="{0BB4AFBA-F087-55C7-95DF-01D71F6CB052}">
+								<Class name="LodRule" field="element" version="1" type="{6E796AC8-1484-4909-860A-6D3F22A7346F}">
+									<Class name="ILodRule" field="BaseClass1" version="1" type="{D91C2CA1-B3F9-4819-8B58-AE2AEB98859A}">
+										<Class name="IRule" field="BaseClass1" version="1" type="{81267F8B-3963-423B-9FF7-D276D82CD110}">
+											<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+										</Class>
+									</Class>
+									<Class name="AZStd::fixed_vector" field="nodeSelectionList" type="{CBED74A5-6CDD-5B8C-8641-0C5B07E2E858}">
+										<Class name="SceneNodeSelectionList" field="element" version="1" type="{D0CE66CE-1BAD-42F5-86ED-3923573B3A02}">
+											<Class name="ISceneNodeSelectionList" field="BaseClass1" version="1" type="{DC3F9996-E550-4780-A03B-80B0DDA1DA45}"/>
+											<Class name="AZStd::vector" field="selectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+											<Class name="AZStd::vector" field="unselectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+										</Class>
+										<Class name="SceneNodeSelectionList" field="element" version="1" type="{D0CE66CE-1BAD-42F5-86ED-3923573B3A02}">
+											<Class name="ISceneNodeSelectionList" field="BaseClass1" version="1" type="{DC3F9996-E550-4780-A03B-80B0DDA1DA45}"/>
+											<Class name="AZStd::vector" field="selectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+											<Class name="AZStd::vector" field="unselectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.transform" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+										</Class>
+									</Class>
+								</Class>
+							</Class>
+						</Class>
+					</Class>
+					<Class name="AZ::Uuid" field="id" value="{5916E7E2-A94A-4C78-8E93-076041479C62}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::shared_ptr" field="element" type="{EB7522F9-0E87-55A9-A191-E924DC5AE867}">
+				<Class name="MeshGroup" field="element" version="3" type="{07B356B7-3635-40B5-878A-FAC4EFD5AD86}">
+					<Class name="IMeshGroup" field="BaseClass1" version="2" type="{74D45E45-81EE-4AD4-83B5-F37EB98D847C}">
+						<Class name="ISceneNodeGroup" field="BaseClass1" version="1" type="{1D20FA11-B184-429E-8C86-745852234845}">
+							<Class name="IGroup" field="BaseClass1" version="1" type="{DE008E67-790D-4672-A73A-5CA0F31EDD2D}">
+								<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+							</Class>
+						</Class>
+					</Class>
+					<Class name="AZStd::string" field="name" value="bushes_atlas_fern" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="SceneNodeSelectionList" field="nodeSelectionList" version="1" type="{D0CE66CE-1BAD-42F5-86ED-3923573B3A02}">
+						<Class name="ISceneNodeSelectionList" field="BaseClass1" version="1" type="{DC3F9996-E550-4780-A03B-80B0DDA1DA45}"/>
+						<Class name="AZStd::vector" field="selectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						</Class>
+						<Class name="AZStd::vector" field="unselectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+							<Class name="AZStd::string" field="element" value="RootNode" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.transform" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						</Class>
+					</Class>
+					<Class name="RuleContainer" field="rules" version="1" type="{2C20D3DF-57FF-4A31-8680-A4D45302B9CF}">
+						<Class name="AZStd::vector" field="rules" type="{B5BDB053-178F-5D55-8663-70897A71B7C9}">
+							<Class name="AZStd::shared_ptr" field="element" type="{0BB4AFBA-F087-55C7-95DF-01D71F6CB052}">
+								<Class name="StaticMeshAdvancedRule" field="element" version="6" type="{AE82749D-A68A-4FE7-A8BA-0F4CE67607AC}">
+									<Class name="IMeshAdvancedRule" field="BaseClass1" version="1" type="{ADF04C44-5786-466A-AE69-63E5E3474D21}">
+										<Class name="IRule" field="BaseClass1" version="1" type="{81267F8B-3963-423B-9FF7-D276D82CD110}">
+											<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+										</Class>
+									</Class>
+									<Class name="bool" field="use32bitVertices" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="bool" field="mergeMeshes" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="bool" field="useCustomNormals" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="AZStd::string" field="vertexColorStreamName" value="colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								</Class>
+							</Class>
+							<Class name="AZStd::shared_ptr" field="element" type="{0BB4AFBA-F087-55C7-95DF-01D71F6CB052}">
+								<Class name="MaterialRule" field="element" version="2" type="{35620013-A27C-4F6D-87BF-72F11688ACAD}">
+									<Class name="IMaterialRule" field="BaseClass1" version="1" type="{428C9752-6EDF-4FA2-9BDF-DBDFCEB4CC0F}">
+										<Class name="IRule" field="BaseClass1" version="1" type="{81267F8B-3963-423B-9FF7-D276D82CD110}">
+											<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+										</Class>
+									</Class>
+									<Class name="bool" field="updateMaterials" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="bool" field="removeMaterials" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+								</Class>
+							</Class>
+							<Class name="AZStd::shared_ptr" field="element" type="{0BB4AFBA-F087-55C7-95DF-01D71F6CB052}">
+								<Class name="LodRule" field="element" version="1" type="{6E796AC8-1484-4909-860A-6D3F22A7346F}">
+									<Class name="ILodRule" field="BaseClass1" version="1" type="{D91C2CA1-B3F9-4819-8B58-AE2AEB98859A}">
+										<Class name="IRule" field="BaseClass1" version="1" type="{81267F8B-3963-423B-9FF7-D276D82CD110}">
+											<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+										</Class>
+									</Class>
+									<Class name="AZStd::fixed_vector" field="nodeSelectionList" type="{CBED74A5-6CDD-5B8C-8641-0C5B07E2E858}">
+										<Class name="SceneNodeSelectionList" field="element" version="1" type="{D0CE66CE-1BAD-42F5-86ED-3923573B3A02}">
+											<Class name="ISceneNodeSelectionList" field="BaseClass1" version="1" type="{DC3F9996-E550-4780-A03B-80B0DDA1DA45}"/>
+											<Class name="AZStd::vector" field="selectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.transform" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+											<Class name="AZStd::vector" field="unselectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+										</Class>
+										<Class name="SceneNodeSelectionList" field="element" version="1" type="{D0CE66CE-1BAD-42F5-86ED-3923573B3A02}">
+											<Class name="ISceneNodeSelectionList" field="BaseClass1" version="1" type="{DC3F9996-E550-4780-A03B-80B0DDA1DA45}"/>
+											<Class name="AZStd::vector" field="selectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+											<Class name="AZStd::vector" field="unselectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.transform" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+										</Class>
+									</Class>
+								</Class>
+							</Class>
+						</Class>
+					</Class>
+					<Class name="AZ::Uuid" field="id" value="{CB8622A3-DAE7-441C-ABD3-4CEC3A773E44}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::shared_ptr" field="element" type="{EB7522F9-0E87-55A9-A191-E924DC5AE867}">
+				<Class name="MeshGroup" field="element" version="3" type="{07B356B7-3635-40B5-878A-FAC4EFD5AD86}">
+					<Class name="IMeshGroup" field="BaseClass1" version="2" type="{74D45E45-81EE-4AD4-83B5-F37EB98D847C}">
+						<Class name="ISceneNodeGroup" field="BaseClass1" version="1" type="{1D20FA11-B184-429E-8C86-745852234845}">
+							<Class name="IGroup" field="BaseClass1" version="1" type="{DE008E67-790D-4672-A73A-5CA0F31EDD2D}">
+								<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+							</Class>
+						</Class>
+					</Class>
+					<Class name="AZStd::string" field="name" value="bushes_atlas_privet" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="SceneNodeSelectionList" field="nodeSelectionList" version="1" type="{D0CE66CE-1BAD-42F5-86ED-3923573B3A02}">
+						<Class name="ISceneNodeSelectionList" field="BaseClass1" version="1" type="{DC3F9996-E550-4780-A03B-80B0DDA1DA45}"/>
+						<Class name="AZStd::vector" field="selectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.transform" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						</Class>
+						<Class name="AZStd::vector" field="unselectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+							<Class name="AZStd::string" field="element" value="RootNode" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						</Class>
+					</Class>
+					<Class name="RuleContainer" field="rules" version="1" type="{2C20D3DF-57FF-4A31-8680-A4D45302B9CF}">
+						<Class name="AZStd::vector" field="rules" type="{B5BDB053-178F-5D55-8663-70897A71B7C9}">
+							<Class name="AZStd::shared_ptr" field="element" type="{0BB4AFBA-F087-55C7-95DF-01D71F6CB052}">
+								<Class name="StaticMeshAdvancedRule" field="element" version="6" type="{AE82749D-A68A-4FE7-A8BA-0F4CE67607AC}">
+									<Class name="IMeshAdvancedRule" field="BaseClass1" version="1" type="{ADF04C44-5786-466A-AE69-63E5E3474D21}">
+										<Class name="IRule" field="BaseClass1" version="1" type="{81267F8B-3963-423B-9FF7-D276D82CD110}">
+											<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+										</Class>
+									</Class>
+									<Class name="bool" field="use32bitVertices" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="bool" field="mergeMeshes" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="bool" field="useCustomNormals" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="AZStd::string" field="vertexColorStreamName" value="colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								</Class>
+							</Class>
+							<Class name="AZStd::shared_ptr" field="element" type="{0BB4AFBA-F087-55C7-95DF-01D71F6CB052}">
+								<Class name="MaterialRule" field="element" version="2" type="{35620013-A27C-4F6D-87BF-72F11688ACAD}">
+									<Class name="IMaterialRule" field="BaseClass1" version="1" type="{428C9752-6EDF-4FA2-9BDF-DBDFCEB4CC0F}">
+										<Class name="IRule" field="BaseClass1" version="1" type="{81267F8B-3963-423B-9FF7-D276D82CD110}">
+											<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+										</Class>
+									</Class>
+									<Class name="bool" field="updateMaterials" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="bool" field="removeMaterials" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+								</Class>
+							</Class>
+							<Class name="AZStd::shared_ptr" field="element" type="{0BB4AFBA-F087-55C7-95DF-01D71F6CB052}">
+								<Class name="LodRule" field="element" version="1" type="{6E796AC8-1484-4909-860A-6D3F22A7346F}">
+									<Class name="ILodRule" field="BaseClass1" version="1" type="{D91C2CA1-B3F9-4819-8B58-AE2AEB98859A}">
+										<Class name="IRule" field="BaseClass1" version="1" type="{81267F8B-3963-423B-9FF7-D276D82CD110}">
+											<Class name="IManifestObject" field="BaseClass1" type="{3B839407-1884-4FF4-ABEA-CA9D347E83F7}"/>
+										</Class>
+									</Class>
+									<Class name="AZStd::fixed_vector" field="nodeSelectionList" type="{CBED74A5-6CDD-5B8C-8641-0C5B07E2E858}">
+										<Class name="SceneNodeSelectionList" field="element" version="1" type="{D0CE66CE-1BAD-42F5-86ED-3923573B3A02}">
+											<Class name="ISceneNodeSelectionList" field="BaseClass1" version="1" type="{DC3F9996-E550-4780-A03B-80B0DDA1DA45}"/>
+											<Class name="AZStd::vector" field="selectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+											<Class name="AZStd::vector" field="unselectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.transform" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+										</Class>
+										<Class name="SceneNodeSelectionList" field="element" version="1" type="{D0CE66CE-1BAD-42F5-86ED-3923573B3A02}">
+											<Class name="ISceneNodeSelectionList" field="BaseClass1" version="1" type="{DC3F9996-E550-4780-A03B-80B0DDA1DA45}"/>
+											<Class name="AZStd::vector" field="selectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod2_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+											<Class name="AZStd::vector" field="unselectedNodes" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+												<Class name="AZStd::string" field="element" value="RootNode" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod0_AM_Bush_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod1_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Bush_01_group._lod2_AM_Bush_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod2_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod1_AM_Doc_Plant_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Doc_Plant_group._lod0_AM_Doc_Plant_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod0_AM_Fernbush_Large_01_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod1_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.AM_Fernbush_Large_01_group._lod2_AM_Fernbush_Large_01_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.transform" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod0_mesh._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.colorSet1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.map1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group.Bush_Atlas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												<Class name="AZStd::string" field="element" value="RootNode.am_bush_privet_02_group._lod1_mesh_group._Privet_01_Tile_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+											</Class>
+										</Class>
+									</Class>
+								</Class>
+							</Class>
+						</Class>
+					</Class>
+					<Class name="AZ::Uuid" field="id" value="{3CE66687-F958-4C49-8F11-D647D86F1A32}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+				</Class>
+			</Class>
+		</Class>
+	</Class>
+</ObjectStream>
+

@@ -1,0 +1,39 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "scannerbeamgrid_01_BaseColor.tif"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.10461649,
+                0.46778381
+            ],
+            "enable": true,
+            "intensity": 5.7625707931831505,
+            "textureMap": "scannerbeamgrid_01_Emissive.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "scannerbeamgrid_01_Metallic.tif"
+        },
+        "specularF0": {
+            "factor": 0.0
+        },
+        "uv": {
+            "tileV": 0.0039062998
+        }
+    }
+}

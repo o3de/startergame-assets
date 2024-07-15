@@ -1,0 +1,26 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.79910284,
+                0.79910284,
+                0.79910284
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "pine_bark_01_BaseColor.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "pine_bark_01_Metallic.tif"
+        },
+        "specularF0": {
+            "factor": 0.0
+        }
+    }
+}

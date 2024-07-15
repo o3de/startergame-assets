@@ -1,0 +1,37 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.19461785,
+                0.58407855,
+                0.79129809
+            ],
+            "factor": 0.79129809,
+            "textureMap": "rivervista_01_BaseColor.fbx"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "D:\\Downloads\\New folder\\Assets\\Objects\\Effects\\rivervista_01_Metallic.fbx"
+        },
+        "specularF0": {
+            "factor": 0.057805438
+        },
+        "normal": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "rivervista_01_Normal.tif"
+        }
+    }
+}

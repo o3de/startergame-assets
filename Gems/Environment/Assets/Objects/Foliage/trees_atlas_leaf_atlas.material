@@ -1,0 +1,13 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "leaf_BaseColorA.tif",
+        "general.doubleSided": true,
+        "metallic.factor": 1.0,
+        "metallic.textureMap": "leaf_Metallic.tif",
+        "opacity.factor": 0.30000001192092896,
+        "opacity.mode": "Cutout",
+        "specularF0.factor": 0.021219011396169662
+    }
+}

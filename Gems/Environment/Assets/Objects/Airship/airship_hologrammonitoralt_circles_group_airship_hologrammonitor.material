@@ -1,0 +1,46 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.83879912,
+                0.95597351,
+                1.0
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "Airship_HologramMonitor_01_BaseColor.tif"
+        },
+        "emissive": {
+            "color": [
+                0.068478175,
+                0.85499275,
+                0.50888133
+            ],
+            "enable": true,
+            "intensity": 6.203213491478937,
+            "textureMap": "Airship_HologramMonitor_01_Emissive.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "Airship_HologramMonitor_01_Metallic.tif"
+        },
+        "roughness": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "Airship_HologramMonitor_01_Roughness.tif"
+        },
+        "specularF0": {
+            "factor": 0.027320893
+        },
+        "normal": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "Airship_HologramMonitor_01_Normal.tif"
+        }
+    }
+}

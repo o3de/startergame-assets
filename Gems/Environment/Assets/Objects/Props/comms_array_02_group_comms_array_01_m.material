@@ -1,0 +1,46 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "comms_array_01_BaseColor.tif"
+        },
+        "emissive": {
+            "color": [
+                0.010960096,
+                1.0,
+                0.095307469
+            ],
+            "enable": true,
+            "intensity": 6.869880158145604,
+            "textureMap": "comms_array_01_Emissive.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "comms_array_01_Metallic.tif"
+        },
+        "roughness": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "comms_array_01_Roughness.tif"
+        },
+        "specularF0": {
+            "factor": 0.03954624
+        },
+        "normal": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "comms_array_01_Normal.tif"
+        }
+    }
+}

@@ -1,0 +1,535 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Diorama01",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3837204912784440039
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8018146290632383969
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7874177159288365422
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5787060997243919943
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 7804170251266531779
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3261249813163778338
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12917798267488243668
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10182366347512475253
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4848458548047175816
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4272963378099646759,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[7690747921401717]": {
+            "Id": "Entity_[7690747921401717]",
+            "Name": "aa_gun_battery_01_group3",
+            "Components": {
+                "Component_[1209557788038351284]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1209557788038351284
+                },
+                "Component_[12495329609205427446]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12495329609205427446
+                },
+                "Component_[14008112415468136582]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14008112415468136582
+                },
+                "Component_[14336748047867067472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14336748047867067472
+                },
+                "Component_[17558548994355956019]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17558548994355956019
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{A547EA41-F36D-585D-B983-06F00E6D2934}",
+                                    "subId": 270764373
+                                },
+                                "assetHint": "objects/aagun/aa_gun_battery_01_group.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5321080879939208521]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5321080879939208521,
+                    "Parent Entity": "Entity_[7690803755976565]",
+                    "Transform Data": {
+                        "Translate": [
+                            1.02410888671875,
+                            -2.1351318359375,
+                            0.7296028137207031
+                        ],
+                        "Rotate": [
+                            90.0,
+                            356.0000305175781,
+                            270.0
+                        ],
+                        "Scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "UniformScale": 0.5
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1815699795
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3B6FF7D7-5C5D-5FE8-B6CA-E54549B6B4A4}"
+                                            },
+                                            "assetHint": "objects/aagun/aa_gun_battery_01_group_aa_gun_battery_01_m.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8478171744515153502]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8478171744515153502
+                },
+                "Component_[8496800662235467421]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8496800662235467421
+                },
+                "Component_[8743353853176037467]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8743353853176037467,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5321080879939208521
+                        },
+                        {
+                            "ComponentId": 10565603459867000875,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 14479283244771320447,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 513846000539060049,
+                            "SortIndex": 3
+                        }
+                    ]
+                }
+            }
+        },
+        "Entity_[7690769396238197]": {
+            "Id": "Entity_[7690769396238197]",
+            "Name": "aa_gun_battery_01_group1",
+            "Components": {
+                "Component_[11036449895669639457]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11036449895669639457
+                },
+                "Component_[12205640639723288721]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12205640639723288721,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 204343219816667734
+                        },
+                        {
+                            "ComponentId": 2305670378460499191,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10151492425498508085,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 18010432813944264642,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[14907474156185538390]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14907474156185538390
+                },
+                "Component_[17072016381893295224]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17072016381893295224
+                },
+                "Component_[1747907172831646429]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1747907172831646429
+                },
+                "Component_[204343219816667734]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 204343219816667734,
+                    "Parent Entity": "Entity_[7690803755976565]",
+                    "Transform Data": {
+                        "Translate": [
+                            1.07244873046875,
+                            -1.39599609375,
+                            0.26752468943595886
+                        ],
+                        "Scale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "UniformScale": 0.5
+                    }
+                },
+                "Component_[3273233275402159072]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3273233275402159072
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{A547EA41-F36D-585D-B983-06F00E6D2934}",
+                                    "subId": 270764373
+                                },
+                                "assetHint": "objects/aagun/aa_gun_battery_01_group.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1815699795
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3B6FF7D7-5C5D-5FE8-B6CA-E54549B6B4A4}"
+                                            },
+                                            "assetHint": "objects/aagun/aa_gun_battery_01_group_aa_gun_battery_01_m.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8024771701632752334]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8024771701632752334
+                },
+                "Component_[9300715735657226690]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9300715735657226690
+                }
+            }
+        },
+        "Entity_[7690803755976565]": {
+            "Id": "Entity_[7690803755976565]",
+            "Name": "Diorama01",
+            "Components": {
+                "Component_[10400707208814191181]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10400707208814191181,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[13115185761638367787]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13115185761638367787
+                },
+                "Component_[14151673588357098318]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14151673588357098318,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10400707208814191181
+                        }
+                    ]
+                },
+                "Component_[16816270490936288341]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16816270490936288341
+                },
+                "Component_[2738143611308348808]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2738143611308348808
+                },
+                "Component_[3408224873111843298]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3408224873111843298
+                },
+                "Component_[6310516787053412287]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6310516787053412287
+                },
+                "Component_[7218803363681861094]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7218803363681861094
+                },
+                "Component_[77953239105388816]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 77953239105388816
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[7690739331467125]": {
+            "Source": "slices/props/crate_long_01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[7690803755976565]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279187901043397]/Components/Component_[6606690859569634328]/Transform Data/Translate/0",
+                    "value": 1.25653076171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279187901043397]/Components/Component_[6606690859569634328]/Transform Data/Translate/1",
+                    "value": 1.19677734375
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279187901043397]/Components/Component_[6606690859569634328]/Transform Data/Rotate/2",
+                    "value": 279.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279187901043397]/Components/Component_[6606690859569634328]/Transform Data/Scale/0",
+                    "value": 1.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279187901043397]/Components/Component_[6606690859569634328]/Transform Data/Scale/1",
+                    "value": 1.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279187901043397]/Components/Component_[6606690859569634328]/Transform Data/Scale/2",
+                    "value": 1.4999998807907104
+                }
+            ]
+        },
+        "Instance_[7690752216369013]": {
+            "Source": "slices/props/crate_long_01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[7690803755976565]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279187901043397]/Components/Component_[6606690859569634328]/Transform Data/Translate/0",
+                    "value": 1.25653076171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279187901043397]/Components/Component_[6606690859569634328]/Transform Data/Translate/1",
+                    "value": 1.19677734375
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279187901043397]/Components/Component_[6606690859569634328]/Transform Data/Translate/2",
+                    "value": 1.242828369140625
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279187901043397]/Components/Component_[6606690859569634328]/Transform Data/Rotate/2",
+                    "value": 279.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279187901043397]/Components/Component_[6606690859569634328]/Transform Data/Scale/0",
+                    "value": 1.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279187901043397]/Components/Component_[6606690859569634328]/Transform Data/Scale/1",
+                    "value": 1.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279187901043397]/Components/Component_[6606690859569634328]/Transform Data/Scale/2",
+                    "value": 1.4999998807907104
+                }
+            ]
+        },
+        "Instance_[7690760806303605]": {
+            "Source": "slices/props/crate_01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[7690803755976565]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279157836272325]/Components/Component_[15196393878044512674]/Transform Data/Translate/0",
+                    "value": -0.92218017578125
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279157836272325]/Components/Component_[15196393878044512674]/Transform Data/Translate/1",
+                    "value": -1.4251708984375
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279157836272325]/Components/Component_[15196393878044512674]/Transform Data/Translate/2",
+                    "value": 0.4562874138355255
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279157836272325]/Components/Component_[15196393878044512674]/Transform Data/Rotate/2",
+                    "value": 29.0000057220459
+                }
+            ]
+        },
+        "Instance_[7690773691205493]": {
+            "Source": "slices/props/crate_01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[7690803755976565]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279157836272325]/Components/Component_[15196393878044512674]/Transform Data/Translate/0",
+                    "value": -1.13134765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279157836272325]/Components/Component_[15196393878044512674]/Transform Data/Translate/1",
+                    "value": 0.8619384765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279157836272325]/Components/Component_[15196393878044512674]/Transform Data/Translate/2",
+                    "value": 0.4562874138355255
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279157836272325]/Components/Component_[15196393878044512674]/Transform Data/Rotate/2",
+                    "value": 12.000006675720215
+                }
+            ]
+        },
+        "Instance_[7690782281140085]": {
+            "Source": "slices/props/barrel_01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[7690803755976565]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279217965814469]/Components/Component_[5055498971659992753]/Transform Data/Translate/0",
+                    "value": -1.57476806640625
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279217965814469]/Components/Component_[5055498971659992753]/Transform Data/Translate/1",
+                    "value": 0.5760498046875
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279217965814469]/Components/Component_[5055498971659992753]/Transform Data/Translate/2",
+                    "value": 1.7078742980957031
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279217965814469]/Components/Component_[5055498971659992753]/Transform Data/Rotate/1",
+                    "value": 359.0
+                }
+            ]
+        },
+        "Instance_[7690790871074677]": {
+            "Source": "slices/props/barrel_01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[7690803755976565]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279217965814469]/Components/Component_[5055498971659992753]/Transform Data/Translate/0",
+                    "value": -0.8313599228858948
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279217965814469]/Components/Component_[5055498971659992753]/Transform Data/Translate/1",
+                    "value": 0.652099609375
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279217965814469]/Components/Component_[5055498971659992753]/Transform Data/Translate/2",
+                    "value": 1.7208518981933594
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[9279217965814469]/Components/Component_[5055498971659992753]/Transform Data/Rotate/1",
+                    "value": 359.0
+                }
+            ]
+        }
+    }
+}

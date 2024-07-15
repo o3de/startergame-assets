@@ -1,0 +1,34 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.049706571,
+                0.0,
+                0.0043914425
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "hologramearthai_core_01_BaseColor.tif"
+        },
+        "emissive": {
+            "color": [
+                1.0,
+                0.026241222,
+                0.04518621
+            ],
+            "enable": true,
+            "intensity": 4.850248928461081,
+            "textureMap": "hologramearthai_core_01_Emissive.tif"
+        },
+        "specularF0": {
+            "factor": 0.0
+        },
+        "uv": {
+            "tileU": 0.0078125
+        }
+    }
+}

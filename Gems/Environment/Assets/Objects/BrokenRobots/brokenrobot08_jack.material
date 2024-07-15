@@ -1,0 +1,41 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.80000001,
+                0.80000001,
+                0.80000001
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "jack_BaseColor.tga"
+        },
+        "emissive": {
+            "color": [
+                0.40197781,
+                0.0,
+                0.0
+            ],
+            "enable": true,
+            "intensity": 6.681222751962536,
+            "textureMap": "jack_Emissive.tga"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "jack_Metallic.tga"
+        },
+        "specularF0": {
+            "factor": 0.49693301
+        },
+        "normal": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "jack_normals_Normal.tga"
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Wire_Damage",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3837204912784440039
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8018146290632383969
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7874177159288365422
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5787060997243919943
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 7804170251266531779
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3261249813163778338
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12917798267488243668
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10182366347512475253
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4848458548047175816
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4272963378099646759,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[672646542745535]": {
+            "Id": "Entity_[672646542745535]",
+            "Name": "Wire Damage",
+            "Components": {
+                "Component_[10758505710347925658]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10758505710347925658,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[13198696905620082296]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13198696905620082296
+                },
+                "Component_[13490981220053745941]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13490981220053745941
+                },
+                "Component_[15842959733761951691]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15842959733761951691
+                },
+                "Component_[15999122913353595310]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15999122913353595310
+                },
+                "Component_[4069966560591387332]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4069966560591387332
+                },
+                "Component_[5870999907762945421]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 5870999907762945421,
+                    "Play Trigger": {
+                        "controlName": "play_amz_sfx_spfx_elec_spark"
+                    }
+                },
+                "Component_[5909731740870740265]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5909731740870740265,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10758505710347925658
+                        },
+                        {
+                            "ComponentId": 6437866975676967788,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8170020930191550484,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 5870999907762945421,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[8170020930191550484]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 8170020930191550484,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
+                "Component_[9361911138276313388]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9361911138276313388
+                },
+                "Component_[9554777796450430468]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9554777796450430468
+                }
+            }
+        }
+    }
+}

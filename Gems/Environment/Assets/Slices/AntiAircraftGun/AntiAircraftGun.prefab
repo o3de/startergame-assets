@@ -1,0 +1,308 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "AntiAircraftGun",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3837204912784440039
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8018146290632383969
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7874177159288365422
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5787060997243919943
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 7804170251266531779
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3261249813163778338
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12917798267488243668
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10182366347512475253
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4848458548047175816
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4272963378099646759,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[258737121340]": {
+            "Id": "Entity_[258737121340]",
+            "Name": "AntiAircraftGun",
+            "Components": {
+                "Component_[10734623244089721346]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10734623244089721346
+                },
+                "Component_[11337643923603083160]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11337643923603083160
+                },
+                "Component_[11891335066849478505]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11891335066849478505
+                },
+                "Component_[12005767400019730921]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12005767400019730921,
+                    "Child Entity Order": [
+                        "Entity_[263032088636]"
+                    ]
+                },
+                "Component_[13736284273887449755]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13736284273887449755
+                },
+                "Component_[14130304705198243147]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14130304705198243147
+                },
+                "Component_[1552995025759114528]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1552995025759114528
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3FD59087-98F4-571A-8D70-AE6CFE542507}",
+                                    "subId": 270243746
+                                },
+                                "assetHint": "objects/aagun/aa_gun_base_group.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5256557208522362257]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5256557208522362257,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9596497031936531876
+                        },
+                        {
+                            "ComponentId": 5044004818748485295,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 187962546
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F2CCF897-1841-5B89-B24D-D261EC125716}"
+                                            },
+                                            "assetHint": "objects/aagun/aa_gun_base_group_am_aagun_01_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1228008504
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6A25C4A0-BA52-50B5-944F-4EC4AF00318E}"
+                                            },
+                                            "assetHint": "objects/aagun/aa_gun_base_group_am_aagun_02_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9596497031936531876]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9596497031936531876,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[263032088636]": {
+            "Id": "Entity_[263032088636]",
+            "Name": "Barrel",
+            "Components": {
+                "Component_[13212206435474573674]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13212206435474573674
+                },
+                "Component_[15689030915986165708]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15689030915986165708
+                },
+                "Component_[18375820655986985300]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18375820655986985300
+                },
+                "Component_[2539044236832257295]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2539044236832257295
+                },
+                "Component_[3416017338965696105]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3416017338965696105
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C02A6BA4-79F2-5ACF-BB62-4A211704260C}",
+                                    "subId": 281675045
+                                },
+                                "assetHint": "objects/aagun/aa_gun_top_group.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5477245715669989975]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5477245715669989975,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7510978212773823103
+                        },
+                        {
+                            "ComponentId": 4296864464685221682,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[6005326962430839294]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6005326962430839294
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 187962546
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F303881D-2958-5A27-8EF6-655FA69FBC05}"
+                                            },
+                                            "assetHint": "objects/aagun/aa_gun_top_group_am_aagun_01_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 343506437
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{74D89D0F-3132-5532-9A6D-4DE8FCF0B8C7}"
+                                            },
+                                            "assetHint": "objects/aagun/aa_gun_top_group_aa_gun_barrel_m.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 690931533
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C2FD9D45-CAEF-52BE-8286-E46FB63044A6}"
+                                            },
+                                            "assetHint": "objects/aagun/aa_gun_top_group_airship_details_01.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1013571070
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3FCA80DB-A7C2-5F68-B841-03DA7914776D}"
+                                            },
+                                            "assetHint": "objects/aagun/aa_gun_top_group_aa_gun_barrel_rifling_m.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1325046667
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{74196424-377B-5452-A5B2-B84C9B1B7C0D}"
+                                            },
+                                            "assetHint": "objects/aagun/aa_gun_top_group_am_air_hanging_wires1.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7023766319201106558]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7023766319201106558
+                },
+                "Component_[7510978212773823103]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7510978212773823103,
+                    "Parent Entity": "Entity_[258737121340]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.00000760000011723605,
+                            -2.0,
+                            11.999998092651367
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
