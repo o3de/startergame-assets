@@ -2,7 +2,7 @@
 
 # Starter Game : Port to O3DE of the lumberyard project
 
-<video autoplay loop src="doc/demo.mp4">Demo</video> 
+![demo](doc/demo.gif) 
 
 This project aims to port to O3DE the ["Starter Game"](https://aws.amazon.com/blogs/gametech/now-available-starter-game/) project. It can be used to stress test the features of O3DE and see how they compare utility-wise and performance-wise with Lumberyard.
 
