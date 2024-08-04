@@ -1,0 +1,389 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Blockade",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3837204912784440039
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8018146290632383969
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7874177159288365422
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5787060997243919943
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 7804170251266531779
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3261249813163778338
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12917798267488243668
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10182366347512475253
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4848458548047175816
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4272963378099646759,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[10392797754919]": {
+            "Id": "Entity_[10392797754919]",
+            "Name": "Rockslide Trigger",
+            "Components": {
+                "Component_[13713882184451321234]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13713882184451321234,
+                    "Child Entity Order": [
+                        "Entity_[10397092722215]",
+                        "Entity_[10401387689511]"
+                    ]
+                },
+                "Component_[15783845638005192678]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15783845638005192678
+                },
+                "Component_[17706421915635415951]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17706421915635415951,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9152748374194927876
+                        },
+                        {
+                            "ComponentId": 15837756738073804226,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 173747818016975492,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 7630952400915603424,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[5109702901126479156]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5109702901126479156
+                },
+                "Component_[6053946924457246097]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6053946924457246097
+                },
+                "Component_[6514131570586577152]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6514131570586577152
+                },
+                "Component_[7566581572066976999]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7566581572066976999
+                },
+                "Component_[7630952400915603424]": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 7630952400915603424,
+                    "Visible": false,
+                    "ShapeColor": [
+                        0.2078430950641632,
+                        0.5686274766921997,
+                        0.6000000238418579
+                    ],
+                    "BoxShape": {
+                        "Configuration": {
+                            "DrawColor": [
+                                0.2078430950641632,
+                                0.5686274766921997,
+                                0.6000000238418579
+                            ],
+                            "Dimensions": [
+                                39.92969512939453,
+                                54.473236083984375,
+                                49.01871109008789
+                            ]
+                        }
+                    }
+                },
+                "Component_[9102469617129149741]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9102469617129149741
+                },
+                "Component_[9152748374194927876]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9152748374194927876,
+                    "Parent Entity": "Entity_[724260480440479]",
+                    "Transform Data": {
+                        "Translate": [
+                            -3.6258544921875,
+                            5.0426025390625,
+                            1.4428520202636719
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[10397092722215]": {
+            "Id": "Entity_[10397092722215]",
+            "Name": "FallingRockSpawner",
+            "Components": {
+                "Component_[1039363187503254090]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1039363187503254090
+                },
+                "Component_[11827071708277609085]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11827071708277609085
+                },
+                "Component_[11849705077980973288]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11849705077980973288
+                },
+                "Component_[12057321757136983077]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12057321757136983077,
+                    "Parent Entity": "Entity_[10392797754919]",
+                    "Transform Data": {
+                        "Translate": [
+                            -15.93701171875,
+                            -6.2459716796875,
+                            19.90868377685547
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            16.000001907348633
+                        ]
+                    }
+                },
+                "Component_[13016985070646181713]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13016985070646181713
+                },
+                "Component_[15031160998828638567]": {
+                    "$type": "EditorRandomTimedSpawnerComponent",
+                    "Id": 15031160998828638567
+                },
+                "Component_[15775635871521850206]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15775635871521850206,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12057321757136983077
+                        },
+                        {
+                            "ComponentId": 15031160998828638567,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16547512314014068809,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3036749932886894032,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[16547512314014068809]": {
+                    "$type": "EditorSpawnerComponent",
+                    "Id": 16547512314014068809,
+                    "Slice": {
+                        "assetId": {
+                            "guid": "{8ED6C212-E0F6-587F-9F3F-D8F50F20E55D}",
+                            "subId": 2
+                        },
+                        "assetHint": "slices/gameplay/fallingrockcluster.dynamicslice"
+                    }
+                },
+                "Component_[17546922847616958868]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17546922847616958868
+                },
+                "Component_[3036749932886894032]": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 3036749932886894032,
+                    "Visible": false,
+                    "ShapeColor": [
+                        0.8639506101608276,
+                        0.07360950112342834,
+                        0.46877241134643555
+                    ],
+                    "BoxShape": {
+                        "Configuration": {
+                            "DrawColor": [
+                                0.8639506101608276,
+                                0.07360950112342834,
+                                0.46877241134643555
+                            ],
+                            "Dimensions": [
+                                12.997450828552246,
+                                11.101530075073242,
+                                7.923087120056152
+                            ]
+                        }
+                    }
+                },
+                "Component_[5015521844459480458]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5015521844459480458
+                },
+                "Component_[8093373570725975837]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8093373570725975837
+                }
+            }
+        },
+        "Entity_[10401387689511]": {
+            "Id": "Entity_[10401387689511]",
+            "Name": "Landslide",
+            "Components": {
+                "Component_[10104983951773119090]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 10104983951773119090,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
+                "Component_[12815773029257261840]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12815773029257261840,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 3729580623009509965
+                        },
+                        {
+                            "ComponentId": 556836396585155146,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10104983951773119090,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 4866393364779846139,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[14267444324284193401]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14267444324284193401
+                },
+                "Component_[15895446096391510931]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15895446096391510931
+                },
+                "Component_[16823589083181283737]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16823589083181283737
+                },
+                "Component_[17728942058374772911]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17728942058374772911
+                },
+                "Component_[356880323080285703]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 356880323080285703
+                },
+                "Component_[3729580623009509965]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3729580623009509965,
+                    "Parent Entity": "Entity_[10392797754919]",
+                    "Transform Data": {
+                        "Translate": [
+                            -6.2845458984375,
+                            -5.3861083984375,
+                            6.170650482177734
+                        ]
+                    }
+                },
+                "Component_[3959712028994523247]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3959712028994523247
+                },
+                "Component_[4866393364779846139]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 4866393364779846139,
+                    "Play Trigger": {
+                        "controlName": "Play_AMZ_sfx_rockSlide_top_left"
+                    }
+                },
+                "Component_[9888856677354671506]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9888856677354671506
+                }
+            }
+        },
+        "Entity_[724260480440479]": {
+            "Id": "Entity_[724260480440479]",
+            "Name": "Blockade",
+            "Components": {
+                "Component_[12603462253937289138]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12603462253937289138,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15819354053617263216
+                        }
+                    ]
+                },
+                "Component_[14780006699290237464]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14780006699290237464
+                },
+                "Component_[15819354053617263216]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15819354053617263216,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[17083972129257590921]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17083972129257590921
+                },
+                "Component_[3776293429098682817]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3776293429098682817
+                },
+                "Component_[5014621713812286750]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5014621713812286750
+                },
+                "Component_[5465831205609575094]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5465831205609575094,
+                    "Child Entity Order": [
+                        "Entity_[10392797754919]"
+                    ]
+                },
+                "Component_[9221497765354423727]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9221497765354423727
+                },
+                "Component_[9304980537671499157]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9304980537671499157
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder Audio/Assets": {
+                    "watch": "@GEMROOT:Audio@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder Audio/Registry": {
+                    "watch": "@GEMROOT:Audio@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}

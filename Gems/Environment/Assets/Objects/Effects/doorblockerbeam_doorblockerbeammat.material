@@ -1,0 +1,36 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "emissive": {
+            "color": [
+                0.95597351,
+                0.080219828,
+                0.012983033
+            ],
+            "enable": true,
+            "intensity": 6.365022433869018,
+            "textureMap": "podbeam_01_Emissive.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "podbeam_01_Metallic.tif"
+        },
+        "specularF0": {
+            "factor": 0.0
+        },
+        "uv": {
+            "tileU": 0.16
+        }
+    }
+}

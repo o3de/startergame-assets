@@ -1,0 +1,40 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "bush_atlas_BaseColorA.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "bush_atlas_Metallic.tif"
+        },
+        "roughness": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "bush_atlas_Roughness.tif"
+        },
+        "specularF0": {
+            "factor": 0.0
+        },
+        "normal": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "bush_atlas_Normal.tif"
+        },
+        "opacity": {
+            "mode": "Cutout",
+            "factor": 0.6599999999999999
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "grass_atlas_BaseColorA.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "grass_atlas_Metallic.tif"
+        },
+        "specularF0": {
+            "factor": 0.0
+        },
+        "normal": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "grass_upnormals_01_Normal.tif"
+        },
+        "opacity": {
+            "mode": "Cutout",
+            "factor": 0.53999999
+        }
+    }
+}

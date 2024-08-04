@@ -1,0 +1,26 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "dead_BaseColor.fbx"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "D:\\Downloads\\New folder\\Assets\\Objects\\Foliage\\dead_Metallic.fbx"
+        },
+        "specularF0": {
+            "factor": 0.0047769537
+        }
+    }
+}

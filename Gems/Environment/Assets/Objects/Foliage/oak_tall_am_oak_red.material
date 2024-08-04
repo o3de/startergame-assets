@@ -1,0 +1,30 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.55834049,
+                0.55834049,
+                0.55834049
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "oak_leaf_red_BaseColorA.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "oak_leaf_red_Metallic.tif"
+        },
+        "specularF0": {
+            "factor": 0.0
+        },
+        "opacity": {
+            "mode": "Cutout",
+            "factor": 0.22000003
+        }
+    }
+}

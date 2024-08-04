@@ -1,0 +1,263 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "SGD1000_Weapon",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3837204912784440039
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8018146290632383969
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7874177159288365422
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5787060997243919943
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 7804170251266531779
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3261249813163778338
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12917798267488243668
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10182366347512475253
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4848458548047175816
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4272963378099646759,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3526261161121794]": {
+            "Id": "Entity_[3526261161121794]",
+            "Name": "BulletFxSpawner",
+            "Components": {
+                "Component_[1106665780232031320]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1106665780232031320
+                },
+                "Component_[17302388059731337336]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17302388059731337336
+                },
+                "Component_[18118612447659194344]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18118612447659194344
+                },
+                "Component_[2937671329119683682]": {
+                    "$type": "EditorSpawnerComponent",
+                    "Id": 2937671329119683682,
+                    "Slice": {
+                        "assetId": {
+                            "guid": "{BA6685AD-1E29-5CBA-BCD3-A5DD057F5531}",
+                            "subId": 2
+                        },
+                        "assetHint": "sgd1000/slices/sgd1000_bullet.dynamicslice"
+                    }
+                },
+                "Component_[2988475951576763423]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2988475951576763423
+                },
+                "Component_[3818451787164878986]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3818451787164878986,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6287756498798042850
+                        },
+                        {
+                            "ComponentId": 2937671329119683682,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[41619480524870615]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 41619480524870615
+                },
+                "Component_[6287756498798042850]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6287756498798042850,
+                    "Parent Entity": "Entity_[577598608693250]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.3619385063648224,
+                            0.10636519640684128
+                        ]
+                    }
+                },
+                "Component_[6916318156261207057]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6916318156261207057
+                },
+                "Component_[941195733712027577]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 941195733712027577
+                }
+            }
+        },
+        "Entity_[577598608693250]": {
+            "Id": "Entity_[577598608693250]",
+            "Name": "SGD1000",
+            "Components": {
+                "Component_[1124559607509285281]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1124559607509285281
+                },
+                "Component_[1301349079199081387]": {
+                    "$type": "EditorAttachmentComponent",
+                    "Id": 1301349079199081387,
+                    "Target ID": "",
+                    "Target Bone Name": "RightHandProp"
+                },
+                "Component_[15220951743096571583]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15220951743096571583
+                },
+                "Component_[3271119847675744499]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3271119847675744499,
+                    "Child Entity Order": [
+                        "Entity_[3526261161121794]"
+                    ]
+                },
+                "Component_[3764157000394284508]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3764157000394284508
+                },
+                "Component_[4295175680435060510]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4295175680435060510
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{4B230409-D0AB-55D5-975F-B4C5171B7ECB}",
+                                    "subId": 281839532
+                                },
+                                "assetHint": "sgd1000/sgd1000.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[4555841431892794010]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 4555841431892794010,
+                    "Play Trigger": {
+                        "controlName": "Play_pla_wpn_plasma_pistol_fire"
+                    }
+                },
+                "Component_[6272834652272882612]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 6272834652272882612,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1532831585
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DCFA954A-D0FA-5D7C-99FE-6141FE9AB372}"
+                                            },
+                                            "assetHint": "sgd1000/sgd1000_sgdmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6745692807610869855]": {
+                    "$type": "EditorTagComponent",
+                    "Id": 6745692807610869855,
+                    "Tags": [
+                        "Weapon",
+                        "SingleHand"
+                    ]
+                },
+                "Component_[7069087030270001951]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7069087030270001951
+                },
+                "Component_[8568651517002513851]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8568651517002513851,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[948219556544962940]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 948219556544962940,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8568651517002513851
+                        },
+                        {
+                            "ComponentId": 5557611470711611587,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1301349079199081387,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 11030812942637589898,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 6745692807610869855,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 6272834652272882612,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 4555841431892794010,
+                            "SortIndex": 6
+                        }
+                    ]
+                },
+                "Component_[9737376827645547246]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9737376827645547246
+                }
+            }
+        }
+    }
+}

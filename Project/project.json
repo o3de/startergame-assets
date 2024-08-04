@@ -1,0 +1,59 @@
+{
+    "project_name": "StarterGame",
+    "version": "1.0.0",
+    "project_id": "{39E33097-3CD1-4727-81E4-A306C8FF6123}",
+    "origin": "The primary repo for StarterGame goes here: i.e. http://www.mydomain.com",
+    "license": "What license StarterGame uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "StarterGame",
+    "summary": "A short description of StarterGame.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "StarterGame"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "Gem",
+        "../Gems/Audio",
+        "../Gems/Characters",
+        "../Gems/Environment",
+        "../Gems/UserInterface",
+        "../Gems/Weapons"
+    ],
+    "restricted": "StarterGame",
+    "gem_names": [
+        "Audio",
+        "Characters",
+        "Environment",
+        "UserInterface",
+        "Weapons",
+        "AWSCore",
+        "Atom",
+        "AudioSystem",
+        "CameraFramework",
+        "DccScriptingInterface",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EMotionFX",
+        "EditorPythonBindings",
+        "GameState",
+        "ImGui",
+        "LandscapeCanvas",
+        "LyShine",
+        "PhysX",
+        "PrefabBuilder",
+        "PrimitiveAssets",
+        "SaveData",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "StarterGame",
+        "StartingPointInput",
+        "Terrain",
+        "TextureAtlas",
+        "Vegetation",
+        "WhiteBox"
+    ],
+    "engine_version": "2.3.0"
+}

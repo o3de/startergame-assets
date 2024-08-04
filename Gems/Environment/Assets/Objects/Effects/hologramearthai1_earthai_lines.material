@@ -1,0 +1,36 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "emissive": {
+            "color": [
+                1.0,
+                0.03189604,
+                0.03189604
+            ],
+            "enable": true,
+            "intensity": 6.624224960090203,
+            "textureMap": "gradientsphereoutline_01_Emissive.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "gradientsphereoutline_01_Metallic.tif"
+        },
+        "specularF0": {
+            "factor": 0.0
+        },
+        "uv": {
+            "tileV": 2.0
+        }
+    }
+}

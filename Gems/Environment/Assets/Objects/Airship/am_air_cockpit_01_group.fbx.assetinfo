@@ -1,0 +1,265 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{0C274BFE-F72B-5E2A-B0C8-8E62ED763EC9}",
+            "name": "am_air_cockpit_01_group",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Bitangent",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Tangent",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.UV0",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.custom_properties",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.transform"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.AM_Air_Cockpit_01_group",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Details_01",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Glass",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Struts",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Tile_01",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Tile_01_Damaged",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Tile_02",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Bitangent",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Proxy_COL",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Tangent",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.UV0",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.airship_floor",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.airship_wall_inner",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.custom_properties",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.transform",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Details_01",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Glass",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Struts",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01_Damaged",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_02",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Bitangent",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Tangent",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.UV0",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.airship_floor",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.airship_wall_inner",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.custom_properties",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.transform",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Details_01",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Glass",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Struts",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01_Damaged",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_02",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.airship_floor",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.airship_wall_inner",
+                    "RootNode.AM_Air_Cockpit_01_group.custom_properties"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Airship_Details_01"
+                    },
+                    {
+                        "Name": "Airship_Hull_Struts"
+                    },
+                    {
+                        "Name": "airship_floor"
+                    },
+                    {
+                        "Name": "Airship_Hull_Tile_02"
+                    },
+                    {
+                        "Name": "airship_wall_inner"
+                    },
+                    {
+                        "Name": "Airship_Glass"
+                    },
+                    {
+                        "Name": "Airship_Hull_Tile_01"
+                    },
+                    {
+                        "Name": "Airship_Hull_Tile_01_Damaged"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "am_air_cockpit_01_group",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.AM_Air_Cockpit_01_group",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Details_01",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Glass",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Struts",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Tile_01",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Tile_01_Damaged",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Tile_02",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Bitangent",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Tangent",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.UV0",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.airship_floor",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.airship_wall_inner",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.custom_properties",
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.transform",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Details_01",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Glass",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Struts",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01_Damaged",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_02",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.airship_floor",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.airship_wall_inner",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Details_01",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Glass",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Struts",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01_Damaged",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_02",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.airship_floor",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.airship_wall_inner",
+                    "RootNode.AM_Air_Cockpit_01_group.custom_properties"
+                ],
+                "unselectedNodes": [
+                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Proxy_COL",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Bitangent",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Tangent",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.UV0",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.custom_properties",
+                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.transform",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Bitangent",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Tangent",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.UV0",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.custom_properties",
+                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.transform"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    "RootNode",
+                                    "RootNode.AM_Air_Cockpit_01_group",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Details_01",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Glass",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Struts",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Tile_01",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Tile_01_Damaged",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Tile_02",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.airship_floor",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.airship_wall_inner",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Details_01",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Glass",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Struts",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01_Damaged",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_02",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Bitangent",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Tangent",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.UV0",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.airship_floor",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.airship_wall_inner",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.custom_properties",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.transform",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Details_01",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Glass",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Struts",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01_Damaged",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_02",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.airship_floor",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.airship_wall_inner",
+                                    "RootNode.AM_Air_Cockpit_01_group.custom_properties"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Proxy_COL",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Bitangent",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Tangent",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.UV0",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.custom_properties",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.transform",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Bitangent",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Tangent",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.UV0",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.custom_properties",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.transform"
+                                ]
+                            },
+                            {
+                                "selectedNodes": [
+                                    "RootNode",
+                                    "RootNode.AM_Air_Cockpit_01_group",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Details_01",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Glass",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Struts",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Tile_01",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Tile_01_Damaged",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Airship_Hull_Tile_02",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.airship_floor",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.airship_wall_inner",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Details_01",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Glass",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Struts",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01_Damaged",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_02",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.airship_floor",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.airship_wall_inner",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Details_01",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Glass",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Struts",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_01_Damaged",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Airship_Hull_Tile_02",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Bitangent",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.Tangent",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.UV0",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.airship_floor",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.airship_wall_inner",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.custom_properties",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod2_AM_Air_Cockpit_01_mesh_group.transform",
+                                    "RootNode.AM_Air_Cockpit_01_group.custom_properties"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Proxy_COL",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Bitangent",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.Tangent",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.UV0",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.custom_properties",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod0_AM_Air_Cockpit_01_mesh.transform",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Bitangent",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.Tangent",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.UV0",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.custom_properties",
+                                    "RootNode.AM_Air_Cockpit_01_group._lod1_AM_Air_Cockpit_01_mesh_group.transform"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "id": "{77A28F79-F713-57B0-BAD9-F1C4E4A82FC9}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        }
+    ]
+}

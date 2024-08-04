@@ -1,0 +1,33 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "FX_FlagPole_01_BaseColor.tif"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "FX_FlagPole_01_Metallic.tif"
+        },
+        "specularF0": {
+            "factor": 0.0
+        }
+    }
+}

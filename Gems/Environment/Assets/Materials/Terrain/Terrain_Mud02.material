@@ -1,0 +1,14 @@
+{
+    "materialType": "@gemroot:Terrain@/Assets/Materials/Terrain/TerrainDetailMaterial.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.textureMap": "../../Textures/Terrain/mud2_diff.tif",
+        "parallax.textureMap": "../../Textures/Terrain/mud2_displ.tif",
+        "uv.center": [
+            0.0,
+            0.0
+        ],
+        "uv.tileU": 0.5,
+        "uv.tileV": 0.5
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.26635563,
+                0.31398875,
+                0.39675525
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "Airship_RobotSeatStructure_01_BaseColor.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "Airship_RobotSeatStructure_01_Metallic.tif"
+        },
+        "roughness": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "Airship_RobotSeatStructure_01_Roughness.tif"
+        },
+        "specularF0": {
+            "factor": 0.1620294
+        },
+        "normal": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "Airship_RobotSeatStructure_01_Normal.tif"
+        }
+    }
+}

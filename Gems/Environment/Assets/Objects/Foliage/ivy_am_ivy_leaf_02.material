@@ -1,0 +1,30 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "ivy_02_BaseColorA.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "ivy_02_Metallic.tif"
+        },
+        "specularF0": {
+            "factor": 0.021219011
+        },
+        "opacity": {
+            "mode": "Cutout",
+            "factor": 0.9
+        }
+    }
+}

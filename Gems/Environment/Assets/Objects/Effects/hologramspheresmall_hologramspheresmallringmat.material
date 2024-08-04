@@ -1,0 +1,36 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "emissive": {
+            "color": [
+                0.043735035,
+                0.46778381,
+                1.0
+            ],
+            "enable": true,
+            "intensity": 6.365022433869018,
+            "textureMap": "hologramspheresmall_01_Emissive.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "hologramspheresmall_01_Metallic.tif"
+        },
+        "specularF0": {
+            "factor": 0.0
+        },
+        "uv": {
+            "tileV": 2.0
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "vulcanosmoke_01_BaseColor.fbx"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "D:\\Downloads\\New folder\\Assets\\Objects\\Effects\\vulcanosmoke_01_Metallic.fbx"
+        },
+        "specularF0": {
+            "factor": 0.0
+        },
+        "normal": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "vulcanosmoke_01_Normal.tif"
+        }
+    }
+}

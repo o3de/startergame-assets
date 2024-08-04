@@ -1,0 +1,122 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Wind_Through_Trees",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3837204912784440039
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8018146290632383969
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7874177159288365422
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5787060997243919943
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 7804170251266531779
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3261249813163778338
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12917798267488243668
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10182366347512475253
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4848458548047175816
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4272963378099646759,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[4829887454226]": {
+            "Id": "Entity_[4829887454226]",
+            "Name": "Wind Through Trees",
+            "Components": {
+                "Component_[10385620794915665799]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10385620794915665799
+                },
+                "Component_[10969648032093025619]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10969648032093025619
+                },
+                "Component_[12069600017955232567]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12069600017955232567
+                },
+                "Component_[13300956395634219037]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13300956395634219037,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6530716670269464204
+                        },
+                        {
+                            "ComponentId": 9032147195330946413,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7228698263754109754,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[18150781041647197358]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 18150781041647197358
+                },
+                "Component_[241111976993371825]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 241111976993371825
+                },
+                "Component_[6530716670269464204]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6530716670269464204,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[672439784127087729]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 672439784127087729
+                },
+                "Component_[7228698263754109754]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 7228698263754109754,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
+                "Component_[9032147195330946413]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 9032147195330946413,
+                    "Play Trigger": {
+                        "controlName": "Play_AMZ_sfx_spfx_windthrutrees"
+                    },
+                    "Plays Immediately": true
+                },
+                "Component_[9037352776727537798]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9037352776727537798
+                }
+            }
+        }
+    }
+}

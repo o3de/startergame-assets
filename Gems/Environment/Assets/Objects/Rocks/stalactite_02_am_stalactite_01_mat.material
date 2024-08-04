@@ -1,0 +1,36 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.83879912,
+                0.79910284,
+                0.76052463
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "AM_stalactite_01_BaseColor.tif"
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "AM_stalactite_01_Metallic.tif"
+        },
+        "roughness": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "AM_stalactite_01_Roughness.tif"
+        },
+        "specularF0": {
+            "factor": 0.03954624
+        },
+        "normal": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "AM_stalactite_01_Normal.tif"
+        }
+    }
+}

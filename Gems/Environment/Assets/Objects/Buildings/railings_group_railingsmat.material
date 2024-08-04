@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "Buildings_Railings_01_BaseColor.tif"
+        },
+        "roughness": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "Buildings_Railings_01_Roughness.tif"
+        },
+        "normal": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "Buildings_Railings_01_Normal.tif"
+        }
+    }
+}

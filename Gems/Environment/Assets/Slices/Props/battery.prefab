@@ -1,0 +1,150 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "battery",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3837204912784440039
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8018146290632383969
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7874177159288365422
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5787060997243919943
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 7804170251266531779
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3261249813163778338
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12917798267488243668
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10182366347512475253
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4848458548047175816
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4272963378099646759,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[9279265210454725]": {
+            "Id": "Entity_[9279265210454725]",
+            "Name": "battery",
+            "Components": {
+                "Component_[11773723363583274879]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11773723363583274879,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[1194115958242423504]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1194115958242423504
+                },
+                "Component_[15919179683683672271]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15919179683683672271
+                },
+                "Component_[17305030093201851679]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17305030093201851679
+                },
+                "Component_[4168185524991736011]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4168185524991736011
+                },
+                "Component_[4528867579411318958]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4528867579411318958,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{9DB8468B-06A3-59F6-85F2-10C9F805ABEF}",
+                                    "subId": 271512750
+                                },
+                                "assetHint": "objects/pickups/battery.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[4848969093963714820]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4848969093963714820
+                },
+                "Component_[5201030815970105490]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5201030815970105490
+                },
+                "Component_[6456931760107146363]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6456931760107146363,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3411111281
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{551EEED2-09AE-5EF0-B425-24D2A9691D2E}"
+                                            },
+                                            "assetHint": "objects/pickups/battery_batterymat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[881422649889524556]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 881422649889524556
+                },
+                "Component_[9736417106613763745]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9736417106613763745,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11773723363583274879
+                        },
+                        {
+                            "ComponentId": 5279407616726037398,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17549531973791671617,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 15213041663917506117,
+                            "SortIndex": 3
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

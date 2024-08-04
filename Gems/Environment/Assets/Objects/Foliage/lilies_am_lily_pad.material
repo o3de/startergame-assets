@@ -1,0 +1,37 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "materialTypeVersion": 5,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.73791051,
+                0.73791051,
+                0.73791051
+            ],
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "lily_BaseColorA.tif"
+        },
+        "emissive": {
+            "color": [
+                0.019382363,
+                0.019382363,
+                0.019382363
+            ]
+        },
+        "metallic": {
+            "factor": 1.0,
+            "useTexture": true,
+            "textureMap": "lily_Metallic.tif"
+        },
+        "specularF0": {
+            "factor": 0.021219011
+        },
+        "opacity": {
+            "mode": "Cutout",
+            "factor": 0.27999997
+        }
+    }
+}
