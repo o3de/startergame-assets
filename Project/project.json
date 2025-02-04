@@ -29,7 +29,6 @@
         "Environment",
         "UserInterface",
         "Weapons",
-        "AWSCore",
         "Atom",
         "AudioSystem",
         "CameraFramework",
